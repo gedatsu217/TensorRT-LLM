@@ -27,6 +27,8 @@ from tensorrt_llm.runtime import ModelConfig, SamplingConfig
 
 from build import get_engine_name  # isort:skip
 
+import time
+
 EOS_TOKEN = 2
 PAD_TOKEN = 2
 
@@ -262,6 +264,14 @@ def generate(
         if runtime_rank == 0:
             print_output(output_ids, input_lengths, max_output_len, tokenizer,
                          output_csv, output_npy)
+    
+    # Test performance
+    torch.cuda.synchronize()
+    start_time = time.perf_counter_ns()
+    decoder.decode(input_ids, input_lengths, sampling_config, streaming=streaming)
+    torch.cuda.synchronize()
+    end_time = time.perf_counter_ns();
+    print("Time: {} ms".format((end_time - start_time)/1000000.0))
 
 
 if __name__ == '__main__':
