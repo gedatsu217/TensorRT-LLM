@@ -1,0 +1,11 @@
+Inside docker
+/TensorRT-LLM/examples/llama /home/gedatsu/TensorRT-LLM/examples/llama
+Runing mpirun -n 4 --allow-run-as-root python3 run.py --input_tokens ./inputs/input_1.csv --max_output_len 64 --tokenizer_dir meta-llama/Llama-2-7b-hf --engine_dir=./tmp/llama/7B/trt_engines/fp16/4-gpu/
+Running the float16 engine ...
+Input: "<s>The capital of China is"
+Output: "Beijing. The capital of the United States is Washington, D.C. The capital of France is Paris. The capital of Russia is Moscow. The capital of the United Kingdom is London. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of"
+Time: 774.55015 ms
+Time: 774.546325 ms
+Time: 772.808235 ms
+Time: 774.511375 ms
+/home/gedatsu/TensorRT-LLM/examples/llama
