@@ -18,6 +18,15 @@ set_property(TARGET th_utils PROPERTY CUDA_RESOLVE_DEVICE_SYMBOLS ON)
 target_link_libraries(th_utils PUBLIC ${TORCH_LIBRARIES} ${CUBLAS_LIB}
                                       ${CURAND_LIB})
 
+set(pybind11_DIR /usr/local/lib/python3.10/dist-packages/pybind11/share/cmake/pybind11)
+find_package(pybind11 REQUIRED)
+pybind11_add_module(manifold worker.cpp)
+#target_compile_options(manifold PRIVATE -g)
+#set(CMAKE_BUILD_TYPE Debug)
+set_property(TARGET manifold PROPERTY POSITION_INDEPENDENT_CODE ON)
+target_link_libraries(manifold PRIVATE ${TORCH_LIBRARIES} th_utils
+                                       ${Python3_LIBRARIES} ${STATIC_TARGET})
+
 add_library(th_common SHARED dynamicDecodeOp.cpp weightOnlyQuantOp.cpp
                              gatherTreeOp.cpp fp8Op.cpp ncclCommunicatorOp.cpp)
 set_property(TARGET th_common PROPERTY POSITION_INDEPENDENT_CODE ON)
