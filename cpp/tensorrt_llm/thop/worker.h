@@ -30,13 +30,11 @@ public:
 
     static Worker* GetWorker(int tid);
 
-    static Worker* GetWorkerByIdent(size_t ident);
-
     static Worker* GetCurrentWorker();
 
     void join_all();
 
-    void add_idmap(int tid, size_t ident);
+    void add_idmap(size_t ident, int tid);
 
     void add_worker(int tid, const std::function<void()>& f);
 
@@ -51,10 +49,12 @@ private:
     
     Controller(const Controller&) = delete;
     Controller& operator=(const Controller&) = delete;
+
+    static Worker* GetWorkerByIdent(size_t ident);
     
     int nr_gpus_;
     std::vector<std::unique_ptr<Worker>> workers_;
-    std::unordered_map<int, size_t> idmap_;
+    std::unordered_map<size_t, int> idmap_;
     static inline std::unique_ptr<Controller> instance_;
     static inline std::once_flag flag_;
 };

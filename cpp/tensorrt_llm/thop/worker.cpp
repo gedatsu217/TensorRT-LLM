@@ -11,11 +11,11 @@
 namespace py = pybind11;
 namespace th = torch;
 
-
+// Class Worker
 Worker::Worker(int tid, int gpu_id, const std::function<void()>& f): tid_(tid), gpu_id_(gpu_id) {  
     thd_ = std::make_unique<std::thread>([this, f]() {
         auto ident_ = std::hash<std::thread::id>{}(std::this_thread::get_id());
-        Controller::GetInstance()->add_idmap(tid_, ident_);
+        Controller::GetInstance()->add_idmap(ident_, tid_);
         py::gil_scoped_acquire acquire;
         f();
     });
@@ -34,7 +34,8 @@ void Worker::join() {
     thd_->join();
 }
 
-
+// Class Controller
+//public
 Controller* Controller::GetInstance() {
     std::call_once(flag_, []() {
         int nr_gpus = th::cuda::device_count();
@@ -47,13 +48,9 @@ Worker* Controller::GetWorker(int tid) {
     return GetInstance()->workers_[tid].get();
 }
 
-Worker* Controller::GetWorkerByIdent(size_t ident) {
-    int tid = GetInstance()->idmap_[ident];
-    return GetWorker(tid);
-}
-
 Worker* Controller::GetCurrentWorker() {
-    auto ident = std::hash<std::thread::id>{}(std::this_thread::get_id());
+    auto current_ident = std::this_thread::get_id();
+    auto ident = std::hash<std::thread::id>{}(current_ident);
     return GetWorkerByIdent(ident);
 }
 
@@ -64,14 +61,20 @@ void Controller::join_all() {
     printf("[Controller] All workers joined!\n");
 }
 
-void Controller::add_idmap(int tid, size_t ident) {
-    idmap_[tid] = ident;
+void Controller::add_idmap(size_t ident, int tid) { // Public for the Worker constructor, but not exported to Python
+    idmap_[ident] = tid;
 }
 
 void Controller::add_worker(int tid, const std::function<void()>& f) {
     int gpu_id = (nr_gpus_ == 0) ? 0 : tid % nr_gpus_;
     std::cout << "[Controller] Adding a worker with tid: " << tid << std::endl;
     workers_.emplace_back(std::make_unique<Worker>(tid, gpu_id, f));
+}
+
+//private: 
+Worker* Controller::GetWorkerByIdent(size_t ident) {
+    int tid = GetInstance()->idmap_[ident];
+    return GetWorker(tid);
 }
 
 
@@ -85,11 +88,9 @@ PYBIND11_MODULE(manifold, m) {
     py::class_<Controller>(m, "Controller")
         //.def(py::init(&Controller::GetInstance))  //ToDo?: py::return_value_policy::reference doesn't seem to work properly. For some reason, destructor is called twice???
         .def_static("GetInstance", &Controller::GetInstance, py::return_value_policy::reference)
-        .def_static("GetWorker", &Controller::GetWorker)
-        .def_static("GetWorkerByIdent", &Controller::GetWorkerByIdent)
-        .def_static("GetCurrentWorker", &Controller::GetCurrentWorker)
-        .def("join_all", &Controller::join_all)
-        .def("add_idmap", &Controller::add_idmap)
+        .def_static("GetWorker", &Controller::GetWorker, py::return_value_policy::reference)
+        .def_static("GetCurrentWorker", &Controller::GetCurrentWorker, py::return_value_policy::reference)
+        .def("join_all", &Controller::join_all)        
         .def("add_worker", &Controller::add_worker);
 }
 
