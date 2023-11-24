@@ -32,6 +32,7 @@ from ..quantization import QuantMode
 from .kv_cache_manager import GenerationSequence, KVCacheManager
 from .session import _scoped_stream
 
+from tensorrt_llm.libs import manifoldwrapper as manifold
 
 def to_word_list_format(word_dict: List[List[str]], tokenizer=None):
     '''
@@ -328,8 +329,8 @@ class GenerationSession(object):
         self.vocab_size_padded = pad_vocab_size(self.vocab_size,
                                                 self.mapping.tp_size)
 
-        self.nccl_comm = torch.classes.FasterTransformer.NcclCommunicatorOp(
-            self.mapping.tp_size, self.mapping.pp_size, self.mapping.rank)
+        #self.nccl_comm = torch.classes.FasterTransformer.NcclCommunicatorOp(
+        #    self.mapping.tp_size, 1, 0)
         if self.mapping.is_last_pp_rank():
             self.decoder_logits_dtype = self._tensor_dtype('logits')
             if self.decoder_logits_dtype not in [torch.float16, torch.float32]:
@@ -1326,34 +1327,50 @@ class GenerationSession(object):
 
     def pp_communicate_new_tokens(self, should_stop, cache_indir,
                                   sequence_length):
+        worker = manifold.ControllerWrapper()
         if self.mapping.is_last_pp_rank():
             for pg in self.mapping.pp_group:
                 if pg == self.mapping.rank:
                     continue
                 should_stop = should_stop.to(self.device)
-                self.nccl_comm.send(should_stop, pg)
-                self.nccl_comm.send(cache_indir, pg)
-                self.nccl_comm.send(sequence_length, pg)
-            self.nccl_comm.send(self.new_tokens, self.mapping.pp_group[0])
+                #self.nccl_comm.send(should_stop, pg)
+                #self.nccl_comm.send(cache_indir, pg)
+                #self.nccl_comm.send(sequence_length, pg)
+                worker.send_tensor(should_stop, pg)
+                worker.send_tensor(cache_indir, pg)
+                worker.send_tensor(sequence_length, pg)
+            #self.nccl_comm.send(self.new_tokens, self.mapping.pp_group[0])
+            worker.send_tensor(self.new_tokens, self.mapping.pp_group[0])
         else:
             should_stop = torch.zeros(1, dtype=torch.bool, device=self.device)
-            self.nccl_comm.recv(should_stop, self.mapping.pp_group[-1])
-            self.nccl_comm.recv(cache_indir, self.mapping.pp_group[-1])
-            self.nccl_comm.recv(sequence_length, self.mapping.pp_group[-1])
+            #self.nccl_comm.recv(should_stop, self.mapping.pp_group[-1])
+            #self.nccl_comm.recv(cache_indir, self.mapping.pp_group[-1])
+            #self.nccl_comm.recv(sequence_length, self.mapping.pp_group[-1])
+            #if self.mapping.is_first_pp_rank():
+            #    self.nccl_comm.recv(self.new_tokens, self.mapping.pp_group[-1])
+            worker.recv_tensor(should_stop)
+            worker.recv_tensor(cache_indir)
+            worker.recv_tensor(sequence_length)
             if self.mapping.is_first_pp_rank():
-                self.nccl_comm.recv(self.new_tokens, self.mapping.pp_group[-1])
+                worker.recv_tensor(self.new_tokens)
+        manifold.ControllerWrapper().barrier()
         return should_stop
 
     def pp_communicate_final_output_ids(self, final_output_ids, batch_size,
                                         beam_width):
+        worker = manifold.ControllerWrapper()
         if self.mapping.is_last_pp_rank():
-            self.nccl_comm.send(final_output_ids, self.mapping.pp_group[0])
+            #self.nccl_comm.send(final_output_ids, self.mapping.pp_group[0])
+            worker.send_tensor(final_output_ids, self.mapping.pp_group[0])
         elif self.mapping.is_first_pp_rank():
             final_output_ids = torch.zeros(
                 (batch_size, beam_width, self.max_seq_length),
                 dtype=torch.int32,
                 device=self.device)
-            self.nccl_comm.recv(final_output_ids, self.mapping.pp_group[-1])
+            #self.nccl_comm.recv(final_output_ids, self.mapping.pp_group[-1])
+            worker.recv_tensor(final_output_ids)
+
+        manifold.ControllerWrapper().barrier()
         return final_output_ids
 
     def finalize_decoder(self, context_lengths, batch_size, beam_width, scfg):

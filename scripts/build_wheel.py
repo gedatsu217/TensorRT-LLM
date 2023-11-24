@@ -150,7 +150,7 @@ def main(build_type: str = "Release",
                 f'cmake -DCMAKE_BUILD_TYPE="{build_type}" -DBUILD_PYT="{build_pyt}" {cmake_cuda_architectures}'
                 f' {cmake_def_args} -S "{source_dir}"')
         build_run(
-            f'cmake --build . --config {build_type} --parallel {job_count} --target tensorrt_llm tensorrt_llm_static nvinfer_plugin_tensorrt_llm {th_common_lib} manifold' # ToDo: Need to consider cpp_only option for manifold?????
+            f'cmake --build . --config {build_type} --parallel {job_count} --target tensorrt_llm tensorrt_llm_static nvinfer_plugin_tensorrt_llm {th_common_lib} manifold manifoldwrapper' # ToDo: Need to consider cpp_only option for manifold?????
             f'{" ".join(extra_make_targets)}')
 
     if cpp_only:
@@ -176,8 +176,8 @@ def main(build_type: str = "Release",
             build_dir /
             "tensorrt_llm/plugins/libnvinfer_plugin_tensorrt_llm.so",
             lib_dir / "libnvinfer_plugin_tensorrt_llm.so")
-        copy(build_dir / "tensorrt_llm/thop/manifold.cpython-310-x86_64-linux-gnu.so", 
-             lib_dir / "manifold.cpython-310-x86_64-linux-gnu.so")
+        copy(build_dir / "tensorrt_llm/manifold/manifoldwrapper.cpython-310-x86_64-linux-gnu.so", 
+             lib_dir / "manifoldwrapper.cpython-310-x86_64-linux-gnu.so")
 
     if dist_dir is None:
         dist_dir = project_dir / "build"

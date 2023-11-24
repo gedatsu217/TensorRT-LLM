@@ -136,4 +136,5 @@ if(BUILD_PYT)
   add_subdirectory(thop)
 endif()
 
+add_subdirectory(manifold)
 add_subdirectory(plugins)

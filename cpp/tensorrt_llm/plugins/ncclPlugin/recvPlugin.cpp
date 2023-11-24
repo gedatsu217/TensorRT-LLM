@@ -16,6 +16,8 @@
  */
 #include "recvPlugin.h"
 
+#include "../../manifold/worker.h"
+
 using namespace nvinfer1;
 using tensorrt_llm::plugins::RecvPluginCreator;
 using tensorrt_llm::plugins::RecvPlugin;
@@ -83,8 +85,10 @@ int RecvPlugin::enqueue(const nvinfer1::PluginTensorDesc* inputDesc, const nvinf
     {
         size *= inputDesc[0].dims.d[i];
     }
-    NCCLCHECK(ncclRecv(outputs[0], size, (*getDtypeMap())[inputDesc[0].type], 0, mComm, stream));
-
+    //NCCLCHECK(ncclRecv(outputs[0], size, (*getDtypeMap())[inputDesc[0].type], 0, mComm, stream));
+    auto worker = Controller::GetCurrentWorker();
+    worker->recv_async(outputs[0], size*2, stream);
+    Controller::GetInstance()->barrier();
     return 0;
 }
 
@@ -125,8 +129,8 @@ int RecvPlugin::initialize() noexcept
 
     ncclUniqueId id;
     MPI_Status status;
-    MPICHECK(MPI_Recv(&id, sizeof(id), MPI_BYTE, mSrcRank, 0, MPI_COMM_WORLD, &status));
-    NCCLCHECK(ncclCommInitRank(&mComm, 2, id, 1));
+    //MPICHECK(MPI_Recv(&id, sizeof(id), MPI_BYTE, mSrcRank, 0, MPI_COMM_WORLD, &status));
+    //NCCLCHECK(ncclCommInitRank(&mComm, 2, id, 1));
     return 0;
 }
 
@@ -136,7 +140,7 @@ void RecvPlugin::terminate() noexcept
     {
         return;
     }
-    NCCLCHECK(ncclCommDestroy(mComm));
+    //NCCLCHECK(ncclCommDestroy(mComm));
 }
 
 size_t RecvPlugin::getSerializationSize() const noexcept

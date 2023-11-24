@@ -111,6 +111,7 @@ set_property(TARGET ${PLUGIN_SHARED_TARGET} PROPERTY CUDA_STANDARD 17)
 
 target_link_libraries(
   ${PLUGIN_SHARED_TARGET}
+  manifold
   ${CUBLAS_LIB}
   ${CUBLASLT_LIB}
   ${CUDNN_LIB}

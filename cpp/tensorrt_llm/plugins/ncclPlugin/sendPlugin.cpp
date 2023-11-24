@@ -16,6 +16,8 @@
  */
 #include "sendPlugin.h"
 
+#include "../../manifold/worker.h"
+
 using namespace nvinfer1;
 using tensorrt_llm::plugins::SendPluginCreator;
 using tensorrt_llm::plugins::SendPlugin;
@@ -84,7 +86,10 @@ int SendPlugin::enqueue(const nvinfer1::PluginTensorDesc* inputDesc, const nvinf
         size *= inputDesc[0].dims.d[i];
     }
 
-    NCCLCHECK(ncclSend(inputs[0], size, (*getDtypeMap())[inputDesc[0].type], 1, mComm, stream));
+    //NCCLCHECK(ncclSend(inputs[0], size, (*getDtypeMap())[inputDesc[0].type], 1, mComm, stream));
+    auto worker = Controller::GetCurrentWorker();
+    worker->send_async(mTgtRank, inputs[0], size*2, stream);
+    Controller::GetInstance()->barrier();
     return 0;
 }
 
@@ -125,8 +130,8 @@ int SendPlugin::initialize() noexcept
 
     ncclUniqueId id;
     ncclGetUniqueId(&id);
-    MPICHECK(MPI_Send(&id, sizeof(id), MPI_BYTE, mTgtRank, 0, MPI_COMM_WORLD));
-    NCCLCHECK(ncclCommInitRank(&mComm, 2, id, 0));
+    //MPICHECK(MPI_Send(&id, sizeof(id), MPI_BYTE, mTgtRank, 0, MPI_COMM_WORLD)); //Error here
+    //NCCLCHECK(ncclCommInitRank(&mComm, 2, id, 0));
     return 0;
 }
 
@@ -136,7 +141,7 @@ void SendPlugin::terminate() noexcept
     {
         return;
     }
-    NCCLCHECK(ncclCommDestroy(mComm));
+    //NCCLCHECK(ncclCommDestroy(mComm));
 }
 
 size_t SendPlugin::getSerializationSize() const noexcept

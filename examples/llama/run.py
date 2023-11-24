@@ -29,6 +29,8 @@ from build import get_engine_name  # isort:skip
 
 import time
 
+from tensorrt_llm.libs import manifoldwrapper as manifold
+
 EOS_TOKEN = 2
 PAD_TOKEN = 2
 
@@ -51,8 +53,8 @@ def read_config(config_path: Path):
     tp_size = config['builder_config']['tensor_parallel']
     pp_size = config['builder_config']['pipeline_parallel']
     world_size = tp_size * pp_size
-    assert world_size == tensorrt_llm.mpi_world_size(), \
-        f'Engine world size ({world_size}) != Runtime world size ({tensorrt_llm.mpi_world_size()})'
+    #assert world_size == tensorrt_llm.mpi_world_size(), \
+    #    f'Engine world size ({world_size}) != Runtime world size ({tensorrt_llm.mpi_world_size()})'
     num_heads = config['builder_config']['num_heads'] // tp_size
     hidden_size = config['builder_config']['hidden_size'] // tp_size
     vocab_size = config['builder_config']['vocab_size']
@@ -207,6 +209,8 @@ def generate(
     streaming: bool = False,
     streaming_interval: int = 5,
 ):
+    worker = manifold.ControllerWrapper()
+    tid = worker.get_current_tid()
     tensorrt_llm.logger.set_level(log_level)
 
     engine_dir = Path(engine_dir)
@@ -214,13 +218,18 @@ def generate(
     model_config, tp_size, pp_size, dtype = read_config(config_path)
     world_size = tp_size * pp_size
 
-    runtime_rank = tensorrt_llm.mpi_rank()
+    #runtime_rank = tensorrt_llm.mpi_rank()
+    runtime_rank = tid
+
     runtime_mapping = tensorrt_llm.Mapping(world_size,
                                            runtime_rank,
                                            tp_size=tp_size,
                                            pp_size=pp_size)
-    torch.cuda.set_device(runtime_rank % runtime_mapping.gpus_per_node)
 
+    #torch.cuda.set_device(runtime_rank % runtime_mapping.gpus_per_node)
+    gpu_id = worker.get_current_gpu_id()
+    torch.cuda.set_device(gpu_id)
+    print("tid: ", tid, "gpu_id: ", gpu_id)
     tokenizer = LlamaTokenizer.from_pretrained(tokenizer_dir, legacy=False)
 
     sampling_config = SamplingConfig(end_id=EOS_TOKEN,
@@ -273,7 +282,20 @@ def generate(
     end_time = time.perf_counter_ns();
     print("Time: {} ms".format((end_time - start_time)/1000000.0))
 
+def execute():
+    pp_num = 2; #Todo: hardcoded
+    controller = manifold.ControllerWrapper();
 
-if __name__ == '__main__':
+    for tid in range(pp_num):
+        controller.add_worker(tid, functions_to_run)
+    
+    controller.join_all()
+
+def functions_to_run(): # Constrains: the function passed to controller.add_worker() must be void and have no arguments
     args = parse_arguments()
     generate(**vars(args))
+
+if __name__ == '__main__':
+    #args = parse_arguments()
+    #generate(**vars(args))
+    execute()

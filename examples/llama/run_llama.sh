@@ -17,13 +17,8 @@ if [ -f /.dockerenv ];
 then
   echo "Inside docker"
   pushd /TensorRT-LLM/examples/llama
-  if [ ${pipeline_num} -gt 1 ]; then
-    echo "Runing mpirun -n ${pipeline_num} --allow-run-as-root ${command}"
-    mpirun -n ${pipeline_num} --allow-run-as-root ${command}
-  else
-    echo "Runing ${command}"
-    ${command}
-  fi
+  echo "Runing ${command}"
+  ${command}
   popd
 else
   echo "On host machine"
