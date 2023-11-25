@@ -1,18 +1,13 @@
 #include <functional>
-#include <memory>
 #include <mutex>
 
 #include "worker.h"
-#include <torch/torch.h>
-#include <torch/extension.h>
 
-class ControllerWrapper {
+
+namespace manifoldwrapper {
+class Controller {
 public:
-    ControllerWrapper();
-
-    static Worker* GetWorker(int tid);
-
-    static Worker* GetCurrentWorker();
+    Controller();
 
     void add_worker(int tid, const std::function<void()>& f);
 
@@ -20,18 +15,15 @@ public:
 
     void barrier();
 
-    void send_tensor(torch::Tensor tensor, int dst);
-
-    void recv_tensor(torch::Tensor tensor);
-
-    int get_current_tid();
-
-    int get_current_gpu_id();
-
 private:
-    ControllerWrapper(const ControllerWrapper&) = delete;
-    ControllerWrapper& operator=(const ControllerWrapper&) = delete;
+    Controller(const Controller&) = delete;
+    Controller& operator=(const Controller&) = delete;
 
-    static inline Controller* ctrlwrapper_;
+    static inline manifold::Controller* ctrlwrapper_;
     static inline std::once_flag flag_;
 };
+
+manifold::Worker* GetCurrentWorker();
+manifold::Worker* GetWorker(int tid);
+
+} // namespace manifoldwrapper

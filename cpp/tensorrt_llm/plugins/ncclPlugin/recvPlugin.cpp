@@ -17,6 +17,7 @@
 #include "recvPlugin.h"
 
 #include "../../manifold/worker.h"
+using namespace manifold;
 
 using namespace nvinfer1;
 using tensorrt_llm::plugins::RecvPluginCreator;

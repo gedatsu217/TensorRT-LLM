@@ -12,7 +12,7 @@
 #include <cuda_runtime.h>
 #include <torch/torch.h>
 
-
+namespace manifold{
 class Worker {
 public:
     Worker(int tid, int gpu_id, const std::function<void()>& f);
@@ -90,3 +90,4 @@ private:
     static inline std::once_flag flag_;
     
 };
+} // namespace manifold

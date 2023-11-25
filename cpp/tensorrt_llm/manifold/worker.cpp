@@ -7,11 +7,7 @@
 
 #include "worker.h"
 
-#include <pybind11/pybind11.h>
-
-namespace py = pybind11;
-
-
+namespace manifold{
 // Class Worker
 Worker::Worker(int tid, int gpu_id, const std::function<void()>& f): tid_(tid), gpu_id_(gpu_id), active_(true), recv_buf_(nullptr), recv_size_(0) {  
     thd_ = std::make_unique<std::thread>([this, f]() {
@@ -189,6 +185,8 @@ Worker* Controller::GetWorkerByIdent(size_t ident) {
 void Controller::barrier_init() {
     pthread_barrier_init(&barrier_, NULL, nr_gpus_);
 }
+
+} // namespace manifold
 
 /*
 PYBIND11_MODULE(manifold, m) {

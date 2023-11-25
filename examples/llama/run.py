@@ -209,8 +209,8 @@ def generate(
     streaming: bool = False,
     streaming_interval: int = 5,
 ):
-    worker = manifold.ControllerWrapper()
-    tid = worker.get_current_tid()
+    worker = manifold.GetCurrentWorker()
+    tid = worker.get_tid()
     tensorrt_llm.logger.set_level(log_level)
 
     engine_dir = Path(engine_dir)
@@ -227,7 +227,7 @@ def generate(
                                            pp_size=pp_size)
 
     #torch.cuda.set_device(runtime_rank % runtime_mapping.gpus_per_node)
-    gpu_id = worker.get_current_gpu_id()
+    gpu_id = worker.get_gpu_id()
     torch.cuda.set_device(gpu_id)
     print("tid: ", tid, "gpu_id: ", gpu_id)
     tokenizer = LlamaTokenizer.from_pretrained(tokenizer_dir, legacy=False)
@@ -284,7 +284,7 @@ def generate(
 
 def execute():
     pp_num = 2; #Todo: hardcoded
-    controller = manifold.ControllerWrapper();
+    controller = manifold.Controller();
 
     for tid in range(pp_num):
         controller.add_worker(tid, functions_to_run)
