@@ -87,8 +87,23 @@ int RecvPlugin::enqueue(const nvinfer1::PluginTensorDesc* inputDesc, const nvinf
         size *= inputDesc[0].dims.d[i];
     }
     //NCCLCHECK(ncclRecv(outputs[0], size, (*getDtypeMap())[inputDesc[0].type], 0, mComm, stream));
+    size_t typesize;
+    switch((*getDtypeMap())[inputDesc[0].type]) {
+        case ncclFloat32:
+            typesize = 4;
+            break;
+        case ncclFloat16:
+            typesize = 2;
+            break;
+        case ncclBfloat16:
+            typesize = 2;
+            break;
+        default:
+            printf("[recvPlugin] Unsupported data type\n");
+            break;
+    }
     auto worker = Controller::GetCurrentWorker();
-    worker->recv_async(outputs[0], size*2, stream);
+    worker->recv_async(outputs[0], size*typesize, stream);
     Controller::GetInstance()->barrier();
     return 0;
 }
