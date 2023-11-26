@@ -104,8 +104,9 @@ int SendPlugin::enqueue(const nvinfer1::PluginTensorDesc* inputDesc, const nvinf
             break;
     }
     auto worker = Controller::GetCurrentWorker();
-    worker->send_async(mTgtRank, inputs[0], size*typesize, stream);
-    Controller::GetInstance()->barrier();
+    //worker->send_async(mTgtRank, inputs[0], size*typesize, stream);
+    //Controller::GetInstance()->barrier();
+    worker->send(mTgtRank, inputs[0], size*typesize, stream);
     return 0;
 }
 

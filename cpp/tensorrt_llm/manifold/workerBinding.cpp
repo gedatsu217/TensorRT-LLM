@@ -44,7 +44,7 @@ manifold::Worker* GetWorker(int tid) {
 PYBIND11_MODULE(manifoldwrapper, m) {
     py::class_<manifoldwrapper::Controller>(m, "Controller")
         .def(py::init<>())
-        .def("join_all", &manifoldwrapper::Controller::join_all)  
+        .def("join_all", &manifoldwrapper::Controller::join_all)
         .def("add_worker", &manifoldwrapper::Controller::add_worker)
         .def("barrier", &manifoldwrapper::Controller::barrier, py::call_guard<py::gil_scoped_release>());
     

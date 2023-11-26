@@ -103,8 +103,9 @@ int RecvPlugin::enqueue(const nvinfer1::PluginTensorDesc* inputDesc, const nvinf
             break;
     }
     auto worker = Controller::GetCurrentWorker();
-    worker->recv_async(outputs[0], size*typesize, stream);
-    Controller::GetInstance()->barrier();
+    //worker->recv_async(outputs[0], size*typesize, stream);
+    //Controller::GetInstance()->barrier();
+    worker->recv(mSrcRank, outputs[0], size*typesize);
     return 0;
 }
 
