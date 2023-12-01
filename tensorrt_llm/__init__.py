@@ -29,6 +29,7 @@ from .mapping import Mapping
 from .module import Module
 from .network import Network, net_guard
 from .parameter import Parameter
+from .worker import Worker, Controller, GetWorker, GetCurrentWorker
 
 __all__ = [
     'logger',
@@ -53,6 +54,10 @@ __all__ = [
     'models',
     'quantization',
     'tools',
+    'Worker',
+    'Controller',
+    'GetWorker',
+    'GetCurrentWorker',
 ]
 
 _init(log_level="error")
