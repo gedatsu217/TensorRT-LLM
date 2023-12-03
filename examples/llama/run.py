@@ -28,6 +28,7 @@ from tensorrt_llm.runtime import ModelConfig, SamplingConfig
 from build import get_engine_name  # isort:skip
 
 import time
+from mpi4py import MPI
 
 EOS_TOKEN = 2
 PAD_TOKEN = 2
@@ -266,10 +267,12 @@ def generate(
                          output_csv, output_npy)
     
     # Test performance
+    MPI.COMM_WORLD.Barrier()
     torch.cuda.synchronize()
     start_time = time.perf_counter_ns()
     decoder.decode(input_ids, input_lengths, sampling_config, streaming=streaming)
     torch.cuda.synchronize()
+    MPI.COMM_WORLD.Barrier()
     end_time = time.perf_counter_ns();
     print("Time: {} ms".format((end_time - start_time)/1000000.0))
 
