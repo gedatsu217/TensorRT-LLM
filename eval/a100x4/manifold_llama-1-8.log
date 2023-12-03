@@ -1,0 +1,11 @@
+Inside docker
+/TensorRT-LLM/examples/llama /home/gedatsu/TensorRT-LLM/examples/llama
+Runing mpirun -n 4 --allow-run-as-root python3 run.py --input_tokens ./inputs/input_1.csv --max_output_len 8 --tokenizer_dir meta-llama/Llama-2-7b-hf --engine_dir=./tmp/llama/7B/trt_engines/fp16/4-gpu/
+Running the float16 engine ...
+Input: "<s>The capital of China is"
+Output: "Beijing. The capital of the"
+Time: 100.855699 ms
+Time: 100.84843 ms
+Time: 99.820771 ms
+Time: 100.847032 ms
+/home/gedatsu/TensorRT-LLM/examples/llama
