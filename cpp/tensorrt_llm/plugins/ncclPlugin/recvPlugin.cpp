@@ -106,7 +106,6 @@ int RecvPlugin::enqueue(const nvinfer1::PluginTensorDesc* inputDesc, const nvinf
     py::gil_scoped_acquire acquire;
     py::module_ tmp = py::module_::import("tensorrt_llm");
     tmp.attr("cuda_recv_plugin")((uintptr_t)outputs[0], size*typesize);
-    tmp.attr("barrier_plugin")();
     py::gil_scoped_release release;
     
     return 0;

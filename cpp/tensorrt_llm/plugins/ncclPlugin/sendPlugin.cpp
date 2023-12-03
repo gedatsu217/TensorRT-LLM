@@ -108,7 +108,6 @@ int SendPlugin::enqueue(const nvinfer1::PluginTensorDesc* inputDesc, const nvinf
     py::gil_scoped_acquire acquire;
     py::module_ tmp = py::module_::import("tensorrt_llm");
     tmp.attr("cuda_send_plugin")(mTgtRank, (uintptr_t)inputs[0], size*typesize);
-    tmp.attr("barrier_plugin")();
     py::gil_scoped_release release;
     
     return 0;

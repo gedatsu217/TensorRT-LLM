@@ -16,7 +16,6 @@ class Worker:
         self.__gpu_id = gpu_id
         self.recv_queue = queue.Queue()
         self.cv = threading.Condition()
-        #self.queue_lock = threading.Lock()
         def thf():
             ident = threading.get_native_id()
             Controller().add_idmap(ident, tid)
@@ -45,8 +44,8 @@ class Worker:
         if src_size > recv_size:
             raise RuntimeError("send_async: src_size > recv_size")
         
-        #CUDACHECK(cudart.cudaMemcpyPeerAsync(recv_buf, peer, src, self.__gpu_id, src_size, stream))
-        CUDACHECK(cudart.cudaMemcpyPeer(recv_buf, peer, src, self.__gpu_id, src_size))
+        CUDACHECK(cudart.cudaMemcpyPeerAsync(recv_buf, peer, src, self.__gpu_id, src_size, stream.cuda_stream))
+        #CUDACHECK(cudart.cudaMemcpyPeer(recv_buf, peer, src, self.__gpu_id, src_size))
     
     def recv_async(self, recv_buf, recv_size):
         with self.cv:
@@ -132,10 +131,12 @@ def cuda_send_plugin(peer, src, src_size):
     stream = torch.cuda.current_stream()
     stream.synchronize()
     my_worker.send_async(peer, src, src_size, stream)
+    Controller().barrier()
 
 def cuda_recv_plugin(recv_buf, recv_size):
     my_worker = GetCurrentWorker()
     my_worker.recv_async(recv_buf, recv_size)
+    Controller().barrier()
 
 def barrier_plugin():
     Controller().barrier()
