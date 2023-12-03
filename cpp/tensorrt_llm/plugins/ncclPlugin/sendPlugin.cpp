@@ -15,9 +15,10 @@
  * limitations under the License.
  */
 #include "sendPlugin.h"
+#include <stdint.h>
+#include <pybind11/embed.h>
 
-#include "../../manifold/worker.h"
-using namespace manifold;
+namespace py = pybind11;
 
 using namespace nvinfer1;
 using tensorrt_llm::plugins::SendPluginCreator;
@@ -103,10 +104,13 @@ int SendPlugin::enqueue(const nvinfer1::PluginTensorDesc* inputDesc, const nvinf
             printf("[recvPlugin] Unsupported data type\n");
             break;
     }
-    auto worker = Controller::GetCurrentWorker();
-    //worker->send_async(mTgtRank, inputs[0], size*typesize, stream);
-    //Controller::GetInstance()->barrier();
-    worker->send(mTgtRank, inputs[0], size*typesize, stream);
+    
+    py::gil_scoped_acquire acquire;
+    py::module_ tmp = py::module_::import("tensorrt_llm");
+    tmp.attr("cuda_send_plugin")(mTgtRank, (uintptr_t)inputs[0], size*typesize);
+    tmp.attr("barrier_plugin")();
+    py::gil_scoped_release release;
+    
     return 0;
 }
 

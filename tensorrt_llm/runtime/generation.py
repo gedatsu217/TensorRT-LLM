@@ -32,7 +32,8 @@ from ..quantization import QuantMode
 from .kv_cache_manager import GenerationSequence, KVCacheManager
 from .session import _scoped_stream
 
-from tensorrt_llm.libs import manifoldwrapper as manifold
+#from tensorrt_llm.libs import manifoldwrapper as manifold
+import tensorrt_llm
 
 def to_word_list_format(word_dict: List[List[str]], tokenizer=None):
     '''
@@ -1327,7 +1328,8 @@ class GenerationSession(object):
 
     def pp_communicate_new_tokens(self, should_stop, cache_indir,
                                   sequence_length):
-        worker = manifold.GetCurrentWorker()
+        #worker = manifold.GetCurrentWorker()
+        worker = tensorrt_llm.GetCurrentWorker()
         if self.mapping.is_last_pp_rank():
             for pg in self.mapping.pp_group:
                 if pg == self.mapping.rank:
@@ -1353,12 +1355,14 @@ class GenerationSession(object):
             worker.recv_tensor(sequence_length)
             if self.mapping.is_first_pp_rank():
                 worker.recv_tensor(self.new_tokens)
-        manifold.Controller().barrier()
+        #manifold.Controller().barrier()
+        tensorrt_llm.Controller().barrier()
         return should_stop
 
     def pp_communicate_final_output_ids(self, final_output_ids, batch_size,
                                         beam_width):
-        worker = manifold.GetCurrentWorker()
+        #worker = manifold.GetCurrentWorker()
+        worker = tensorrt_llm.GetCurrentWorker()
         if self.mapping.is_last_pp_rank():
             #self.nccl_comm.send(final_output_ids, self.mapping.pp_group[0])
             worker.send_tensor(final_output_ids, self.mapping.pp_group[0])
@@ -1370,7 +1374,8 @@ class GenerationSession(object):
             #self.nccl_comm.recv(final_output_ids, self.mapping.pp_group[-1])
             worker.recv_tensor(final_output_ids)
 
-        manifold.Controller().barrier()
+        #manifold.Controller().barrier()
+        tensorrt_llm.Controller().barrier()
         return final_output_ids
 
     def finalize_decoder(self, context_lengths, batch_size, beam_width, scfg):

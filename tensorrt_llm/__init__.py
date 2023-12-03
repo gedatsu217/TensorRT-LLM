@@ -29,7 +29,7 @@ from .mapping import Mapping
 from .module import Module
 from .network import Network, net_guard
 from .parameter import Parameter
-from .worker import Worker, Controller, GetWorker, GetCurrentWorker
+from .worker import Worker, Controller, GetWorker, GetCurrentWorker, cuda_send_plugin, cuda_recv_plugin, barrier_plugin
 
 __all__ = [
     'logger',
@@ -58,6 +58,9 @@ __all__ = [
     'Controller',
     'GetWorker',
     'GetCurrentWorker',
+    'cuda_send_plugin',
+    'cuda_recv_plugin',
+    'barrier_plugin',
 ]
 
 _init(log_level="error")

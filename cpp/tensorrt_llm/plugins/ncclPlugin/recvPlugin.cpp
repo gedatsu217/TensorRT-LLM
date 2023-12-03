@@ -15,9 +15,9 @@
  * limitations under the License.
  */
 #include "recvPlugin.h"
+#include <pybind11/embed.h>
 
-#include "../../manifold/worker.h"
-using namespace manifold;
+namespace py = pybind11;
 
 using namespace nvinfer1;
 using tensorrt_llm::plugins::RecvPluginCreator;
@@ -102,10 +102,13 @@ int RecvPlugin::enqueue(const nvinfer1::PluginTensorDesc* inputDesc, const nvinf
             printf("[recvPlugin] Unsupported data type\n");
             break;
     }
-    auto worker = Controller::GetCurrentWorker();
-    //worker->recv_async(outputs[0], size*typesize, stream);
-    //Controller::GetInstance()->barrier();
-    worker->recv(mSrcRank, outputs[0], size*typesize);
+
+    py::gil_scoped_acquire acquire;
+    py::module_ tmp = py::module_::import("tensorrt_llm");
+    tmp.attr("cuda_recv_plugin")((uintptr_t)outputs[0], size*typesize);
+    tmp.attr("barrier_plugin")();
+    py::gil_scoped_release release;
+    
     return 0;
 }
 

@@ -29,7 +29,7 @@ from build import get_engine_name  # isort:skip
 
 import time
 
-from tensorrt_llm.libs import manifoldwrapper as manifold
+#from tensorrt_llm.libs import manifoldwrapper as manifold
 
 EOS_TOKEN = 2
 PAD_TOKEN = 2
@@ -209,7 +209,8 @@ def generate(
     streaming: bool = False,
     streaming_interval: int = 5,
 ):
-    worker = manifold.GetCurrentWorker()
+    #worker = manifold.GetCurrentWorker()
+    worker = tensorrt_llm.GetCurrentWorker()
     tid = worker.get_tid()
     tensorrt_llm.logger.set_level(log_level)
 
@@ -284,7 +285,8 @@ def generate(
 
 def execute():
     pp_num = 2; #Todo: hardcoded
-    controller = manifold.Controller();
+    #controller = manifold.Controller();
+    controller = tensorrt_llm.Controller();
 
     for tid in range(pp_num):
         controller.add_worker(tid, functions_to_run)

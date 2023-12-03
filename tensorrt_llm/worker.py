@@ -6,7 +6,7 @@ import queue
 
 def CUDACHECK(cmd):
     err = cmd
-    if err != cudart.cudaError.cudaSuccess:
+    if err[0] != cudart.cudaError_t.cudaSuccess:
         raise RuntimeError("CUDA command returned error: {}".format(err))
     
 
@@ -38,18 +38,20 @@ class Worker:
         recv_buf = 0
         recv_size = 0
         with peer_worker.cv:
-            peer_worker.cv.wait_for(not peer_worker.recv_queue.empty())
+            while peer_worker.recv_queue.empty():
+                peer_worker.cv.wait()
             recv_buf, recv_size = peer_worker.recv_queue.get()
         
         if src_size > recv_size:
             raise RuntimeError("send_async: src_size > recv_size")
         
-        CUDACHECK(cudart.cudaMemcpyPeerAsync(recv_buf, peer, src, self.__gpu_id, src_size, stream))
+        #CUDACHECK(cudart.cudaMemcpyPeerAsync(recv_buf, peer, src, self.__gpu_id, src_size, stream))
+        CUDACHECK(cudart.cudaMemcpyPeer(recv_buf, peer, src, self.__gpu_id, src_size))
     
     def recv_async(self, recv_buf, recv_size):
         with self.cv:
             self.recv_queue.put((recv_buf, recv_size))
-            self.cv.notify()
+            self.cv.notify_all()
 
     def send_tensor(self, tensor, dst):
         stream = torch.cuda.current_stream()
@@ -123,3 +125,17 @@ def GetCurrentWorker():
     ident = threading.get_native_id()
     tid = Controller().get_tid_from_idmap(ident)
     return GetWorker(tid)
+
+# For C++
+def cuda_send_plugin(peer, src, src_size):
+    my_worker = GetCurrentWorker()
+    stream = torch.cuda.current_stream()
+    stream.synchronize()
+    my_worker.send_async(peer, src, src_size, stream)
+
+def cuda_recv_plugin(recv_buf, recv_size):
+    my_worker = GetCurrentWorker()
+    my_worker.recv_async(recv_buf, recv_size)
+
+def barrier_plugin():
+    Controller().barrier()
