@@ -16,6 +16,8 @@ class Worker:
         self.__gpu_id = gpu_id
         self.recv_queue = queue.Queue()
         self.cv = threading.Condition()
+        self.cv_ = threading.Condition()
+        self.send_finished = False
         def thf():
             ident = threading.get_native_id()
             Controller().add_idmap(ident, tid)
@@ -132,12 +134,23 @@ def cuda_send_plugin(peer, src, src_size):
     stream = torch.cuda.current_stream()
     stream.synchronize()
     my_worker.send_async(peer, src, src_size, stream)
-    Controller().barrier(True)
+    #Controller().barrier(True)
+    stream.synchronize()
+    with my_worker.cv_:
+        my_worker.send_finished = True
+        my_worker.cv_.notify_all()
 
-def cuda_recv_plugin(recv_buf, recv_size):
+def cuda_recv_plugin(peer, recv_buf, recv_size):
     my_worker = GetCurrentWorker()
     my_worker.recv_async(recv_buf, recv_size)
-    Controller().barrier(True)
+    #Controller().barrier(True)
+    torch.cuda.current_stream().synchronize()
+    peer_worker = GetWorker(peer)
+    with peer_worker.cv_:
+        while peer_worker.send_finished == False:
+            peer_worker.cv_.wait()
+        peer_worker.send_finished = False
+
 
 def barrier_plugin():
     Controller().barrier()
