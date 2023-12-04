@@ -132,12 +132,12 @@ def cuda_send_plugin(peer, src, src_size):
     stream = torch.cuda.current_stream()
     stream.synchronize()
     my_worker.send_async(peer, src, src_size, stream)
-    Controller().barrier()
+    Controller().barrier(True)
 
 def cuda_recv_plugin(recv_buf, recv_size):
     my_worker = GetCurrentWorker()
     my_worker.recv_async(recv_buf, recv_size)
-    Controller().barrier()
+    Controller().barrier(True)
 
 def barrier_plugin():
     Controller().barrier()
