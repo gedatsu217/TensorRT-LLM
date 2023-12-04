@@ -1,0 +1,2647 @@
+tid: 1, Time1: 0.689325
+tid: 2, Time1: 0.6869
+tid: 0, Time1: 0.691233
+tid: 3, Time1: 0.676779
+tid: 0, Time2: 1.084411
+tid: 2, Time2: 1.120401
+tid: 1, Time2: 1.12439
+tid: 3, Time2: 1.107873
+tid: 0, Time3: 0.551668
+tid: 2, Time3: 0.543291
+tid: 1, Time3: 0.555174
+tid: 2, Time4: 0.120805
+tid: 0, Time4: 0.145214
+step: 0, tid: 0, Time: 2.500478 ms
+tid: 1, Time4: 0.120362
+step: 0, tid: 1, Time: 2.518066 ms
+step: 0, tid: 2, Time: 2.508671 ms
+tid: 3, Time3: 11.959784
+tid: 1, Time1: 0.001167
+tid: 3, Time4: 0.232335
+tid: 2, Time1: 0.001322
+tid: 0, Time1: 0.001167
+step: 0, tid: 3, Time: 14.008526 ms
+tid: 3, Time1: 0.000962
+tid: 1, Time2: 0.739582
+tid: 0, Time2: 0.720678
+tid: 2, Time2: 0.738923
+tid: 3, Time2: 0.735984
+tid: 1, Time3: 0.487432
+tid: 2, Time3: 0.466542
+tid: 0, Time3: 0.484399
+tid: 1, Time4: 0.123269
+tid: 2, Time4: 0.122434
+step: 1, tid: 2, Time: 1.357013 ms
+tid: 0, Time4: 0.126101
+step: 1, tid: 1, Time: 1.384689 ms
+step: 1, tid: 0, Time: 1.365664 ms
+tid: 3, Time3: 11.579302
+tid: 1, Time1: 0.00102
+tid: 3, Time4: 0.225999
+tid: 2, Time1: 0.001074
+tid: 0, Time1: 0.001162
+step: 1, tid: 3, Time: 12.576203 ms
+tid: 3, Time1: 0.000915
+tid: 1, Time2: 0.830772
+tid: 2, Time2: 0.829177
+tid: 0, Time2: 0.815547
+tid: 3, Time2: 0.851428
+tid: 1, Time3: 0.489845
+tid: 2, Time3: 0.480899
+tid: 0, Time3: 0.496885
+tid: 1, Time4: 0.121023
+tid: 2, Time4: 0.117544
+step: 2, tid: 1, Time: 1.473557 ms
+tid: 0, Time4: 0.122713
+step: 2, tid: 0, Time: 1.468063 ms
+step: 2, tid: 2, Time: 1.458124 ms
+tid: 3, Time3: 11.652862
+tid: 1, Time1: 0.000921
+tid: 3, Time4: 0.242419
+tid: 2, Time1: 0.001253
+tid: 0, Time1: 0.000924
+step: 2, tid: 3, Time: 12.77938 ms
+tid: 3, Time1: 0.001005
+tid: 1, Time2: 0.687218
+tid: 0, Time2: 0.677124
+tid: 2, Time2: 0.696953
+tid: 3, Time2: 0.705211
+tid: 1, Time3: 0.47934
+tid: 2, Time3: 0.473697
+tid: 0, Time3: 0.486343
+tid: 1, Time4: 0.131509
+tid: 2, Time4: 0.119345
+step: 3, tid: 1, Time: 1.332451 ms
+tid: 0, Time4: 0.12351
+step: 3, tid: 2, Time: 1.322298 ms
+step: 3, tid: 0, Time: 1.31314 ms
+tid: 3, Time3: 11.605472
+tid: 1, Time1: 0.001001
+tid: 3, Time4: 0.225308
+tid: 2, Time1: 0.001048
+tid: 0, Time1: 0.001056
+step: 3, tid: 3, Time: 12.569954 ms
+tid: 3, Time1: 0.001227
+tid: 1, Time2: 0.678655
+tid: 0, Time2: 0.665405
+tid: 2, Time2: 0.682656
+tid: 3, Time2: 0.685089
+tid: 1, Time3: 0.494578
+tid: 2, Time3: 0.480356
+tid: 0, Time3: 0.497553
+tid: 1, Time4: 0.120806
+tid: 2, Time4: 0.12057
+step: 4, tid: 1, Time: 1.32612 ms
+tid: 0, Time4: 0.122867
+step: 4, tid: 0, Time: 1.311267 ms
+step: 4, tid: 2, Time: 1.3138 ms
+tid: 3, Time3: 11.642705
+tid: 1, Time1: 0.001004
+tid: 3, Time4: 0.225877
+step: 4, tid: 3, Time: 12.586764 ms
+tid: 2, Time1: 0.001258
+tid: 0, Time1: 0.001057
+tid: 3, Time1: 0.001113
+tid: 1, Time2: 0.698572
+tid: 0, Time2: 0.679751
+tid: 2, Time2: 0.695583
+tid: 3, Time2: 0.700115
+tid: 1, Time3: 0.482163
+tid: 2, Time3: 0.4678
+tid: 0, Time3: 0.490883
+tid: 1, Time4: 0.12123
+tid: 2, Time4: 0.120058
+step: 5, tid: 2, Time: 1.310591 ms
+step: 5, tid: 1, Time: 1.33572 ms
+tid: 0, Time4: 0.1237
+step: 5, tid: 0, Time: 1.327232 ms
+tid: 3, Time3: 11.613197
+tid: 1, Time1: 0.001043
+tid: 3, Time4: 0.234725
+tid: 2, Time1: 0.001071
+tid: 0, Time1: 0.001186
+step: 5, tid: 3, Time: 12.583883 ms
+tid: 3, Time1: 0.001005
+tid: 1, Time2: 0.665348
+tid: 2, Time2: 0.671391
+tid: 0, Time2: 0.660709
+tid: 3, Time2: 0.676033
+tid: 1, Time3: 0.478552
+tid: 2, Time3: 0.460973
+tid: 0, Time3: 0.472908
+tid: 1, Time4: 0.119466
+tid: 2, Time4: 0.12138
+step: 6, tid: 1, Time: 1.297075 ms
+tid: 0, Time4: 0.11912
+step: 6, tid: 2, Time: 1.284813 ms
+step: 6, tid: 0, Time: 1.279329 ms
+tid: 3, Time3: 11.672041
+tid: 1, Time1: 0.001106
+tid: 3, Time4: 0.222478
+tid: 2, Time1: 0.001155
+tid: 0, Time1: 0.000949
+step: 6, tid: 3, Time: 12.603221 ms
+tid: 3, Time1: 0.001057
+tid: 1, Time2: 0.660987
+tid: 2, Time2: 0.65815
+tid: 0, Time2: 0.659736
+tid: 3, Time2: 0.678455
+tid: 1, Time3: 0.483075
+tid: 2, Time3: 0.468063
+tid: 0, Time3: 0.475593
+tid: 1, Time4: 0.119639
+tid: 2, Time4: 0.117063
+step: 7, tid: 1, Time: 1.296232 ms
+step: 7, tid: 2, Time: 1.275392 ms
+tid: 0, Time4: 0.128442
+step: 7, tid: 0, Time: 1.291915 ms
+tid: 3, Time3: 11.673499
+tid: 1, Time1: 0.001419
+tid: 3, Time4: 0.253449
+step: 7, tid: 3, Time: 12.640052 ms
+tid: 0, Time1: 0.001996
+tid: 2, Time1: 0.002256
+tid: 3, Time1: 0.000932
+tid: 1, Time2: 0.682039
+tid: 0, Time2: 0.66406
+tid: 3, Time2: 0.669304
+tid: 2, Time2: 0.902438
+tid: 1, Time3: 0.483126
+tid: 0, Time3: 0.493384
+tid: 1, Time4: 0.12027
+step: 8, tid: 1, Time: 1.319342 ms
+tid: 0, Time4: 0.130801
+step: 8, tid: 0, Time: 1.322748 ms
+tid: 2, Time3: 0.58484
+tid: 2, Time4: 0.155582
+step: 8, tid: 2, Time: 1.683519 ms
+tid: 3, Time3: 11.705518
+tid: 1, Time1: 0.001065
+tid: 3, Time4: 0.22345
+tid: 2, Time1: 0.001465
+tid: 0, Time1: 0.001029
+step: 8, tid: 3, Time: 12.626511 ms
+tid: 3, Time1: 0.000959
+tid: 1, Time2: 0.664738
+tid: 0, Time2: 0.654583
+tid: 3, Time2: 0.669262
+tid: 2, Time2: 0.86833
+tid: 1, Time3: 0.471961
+tid: 0, Time3: 0.484755
+tid: 1, Time4: 0.119316
+step: 9, tid: 1, Time: 1.288227 ms
+tid: 0, Time4: 0.129299
+step: 9, tid: 0, Time: 1.298925 ms
+tid: 2, Time3: 0.574722
+tid: 2, Time4: 0.147675
+step: 9, tid: 2, Time: 1.629796 ms
+tid: 3, Time3: 11.656034
+tid: 1, Time1: 0.001063
+tid: 3, Time4: 0.22969
+tid: 0, Time1: 0.001054
+step: 9, tid: 3, Time: 12.590909 ms
+tid: 2, Time1: 0.002311
+tid: 3, Time1: 0.000954
+tid: 1, Time2: 0.638888
+tid: 0, Time2: 0.635216
+tid: 3, Time2: 0.655058
+tid: 2, Time2: 0.699824
+tid: 1, Time3: 0.48075
+tid: 0, Time3: 0.482826
+tid: 1, Time4: 0.119269
+tid: 2, Time3: 0.508833
+step: 10, tid: 1, Time: 1.28528 ms
+tid: 0, Time4: 0.149053
+step: 10, tid: 0, Time: 1.296965 ms
+tid: 2, Time4: 0.123775
+step: 10, tid: 2, Time: 1.367788 ms
+tid: 3, Time3: 11.692184
+tid: 1, Time1: 0.00093
+tid: 3, Time4: 0.222866
+tid: 2, Time1: 0.00115
+tid: 0, Time1: 0.00102
+step: 10, tid: 3, Time: 12.601925 ms
+tid: 3, Time1: 0.000931
+tid: 1, Time2: 0.672646
+tid: 0, Time2: 0.664833
+tid: 2, Time2: 0.680205
+tid: 3, Time2: 0.683156
+tid: 1, Time3: 0.469341
+tid: 2, Time3: 0.47651
+tid: 0, Time3: 0.48959
+tid: 1, Time4: 0.127203
+step: 11, tid: 1, Time: 1.302666 ms
+tid: 2, Time4: 0.113723
+tid: 0, Time4: 0.124588
+step: 11, tid: 2, Time: 1.298845 ms
+step: 11, tid: 0, Time: 1.312485 ms
+tid: 3, Time3: 11.63574
+tid: 1, Time1: 0.001018
+tid: 3, Time4: 0.239134
+tid: 2, Time1: 0.000955
+tid: 0, Time1: 0.001088
+step: 11, tid: 3, Time: 12.58749 ms
+tid: 3, Time1: 0.000944
+tid: 1, Time2: 0.655481
+tid: 0, Time2: 0.651883
+tid: 2, Time2: 0.673798
+tid: 3, Time2: 0.670755
+tid: 1, Time3: 0.476108
+tid: 2, Time3: 0.469641
+tid: 0, Time3: 0.479932
+tid: 1, Time4: 0.121505
+step: 12, tid: 1, Time: 1.28583 ms
+tid: 2, Time4: 0.122269
+tid: 0, Time4: 0.120845
+step: 12, tid: 0, Time: 1.277955 ms
+step: 12, tid: 2, Time: 1.293609 ms
+tid: 3, Time3: 11.715127
+tid: 1, Time1: 0.001185
+tid: 3, Time4: 0.232119
+tid: 2, Time1: 0.001196
+step: 12, tid: 3, Time: 12.646389 ms
+tid: 0, Time1: 0.001038
+tid: 3, Time1: 0.001019
+tid: 1, Time2: 0.660481
+tid: 0, Time2: 0.643345
+tid: 2, Time2: 0.672051
+tid: 3, Time2: 0.662762
+tid: 1, Time3: 0.482105
+tid: 2, Time3: 0.47524
+tid: 0, Time3: 0.492149
+tid: 1, Time4: 0.119833
+tid: 2, Time4: 0.114196
+step: 13, tid: 1, Time: 1.297417 ms
+tid: 0, Time4: 0.119442
+step: 13, tid: 2, Time: 1.288428 ms
+step: 13, tid: 0, Time: 1.280155 ms
+tid: 3, Time3: 11.722938
+tid: 1, Time1: 0.001026
+tid: 3, Time4: 0.22294
+tid: 2, Time1: 0.001096
+tid: 0, Time1: 0.001053
+step: 13, tid: 3, Time: 12.642237 ms
+tid: 3, Time1: 0.001056
+tid: 1, Time2: 0.651904
+tid: 0, Time2: 0.635681
+tid: 2, Time2: 0.658756
+tid: 3, Time2: 0.661825
+tid: 1, Time3: 0.480139
+tid: 0, Time3: 0.484203
+tid: 2, Time3: 0.481207
+tid: 1, Time4: 0.126633
+step: 14, tid: 1, Time: 1.292149 ms
+tid: 2, Time4: 0.11533
+tid: 0, Time4: 0.124679
+step: 14, tid: 2, Time: 1.287981 ms
+step: 14, tid: 0, Time: 1.271769 ms
+tid: 3, Time3: 11.726027
+tid: 1, Time1: 0.001477
+tid: 3, Time4: 0.236528
+tid: 2, Time1: 0.001256
+step: 14, tid: 3, Time: 12.653642 ms
+tid: 0, Time1: 0.001121
+tid: 3, Time1: 0.000982
+tid: 1, Time2: 0.702084
+tid: 0, Time2: 0.681063
+tid: 2, Time2: 0.698034
+tid: 3, Time2: 0.698007
+tid: 1, Time3: 0.49293
+tid: 2, Time3: 0.483459
+tid: 0, Time3: 0.502263
+tid: 1, Time4: 0.125001
+tid: 2, Time4: 0.128867
+step: 15, tid: 1, Time: 1.354272 ms
+tid: 0, Time4: 0.123781
+step: 15, tid: 0, Time: 1.337047 ms
+step: 15, tid: 2, Time: 1.343881 ms
+tid: 3, Time3: 11.672401
+tid: 1, Time1: 0.001066
+tid: 3, Time4: 0.230839
+tid: 2, Time1: 0.001188
+tid: 0, Time1: 0.001064
+step: 15, tid: 3, Time: 12.635829 ms
+tid: 3, Time1: 0.000923
+tid: 1, Time2: 0.693351
+tid: 0, Time2: 0.677719
+tid: 2, Time2: 0.704472
+tid: 3, Time2: 0.702673
+tid: 1, Time3: 0.493018
+tid: 0, Time3: 0.491882
+tid: 2, Time3: 0.487338
+tid: 1, Time4: 0.135325
+step: 16, tid: 1, Time: 1.355161 ms
+tid: 2, Time4: 0.130512
+tid: 0, Time4: 0.146518
+step: 16, tid: 2, Time: 1.354538 ms
+step: 16, tid: 0, Time: 1.344036 ms
+tid: 3, Time3: 11.667775
+tid: 1, Time1: 0.00102
+tid: 3, Time4: 0.222951
+tid: 2, Time1: 0.001046
+tid: 0, Time1: 0.001058
+step: 16, tid: 3, Time: 12.626371 ms
+tid: 3, Time1: 0.000941
+tid: 1, Time2: 0.700493
+tid: 0, Time2: 0.680274
+tid: 2, Time2: 0.692864
+tid: 3, Time2: 0.706217
+tid: 1, Time3: 0.481846
+tid: 2, Time3: 0.485377
+tid: 0, Time3: 0.49185
+tid: 1, Time4: 0.118841
+step: 17, tid: 1, Time: 1.334057 ms
+tid: 2, Time4: 0.121989
+tid: 0, Time4: 0.124
+step: 17, tid: 2, Time: 1.332783 ms
+step: 17, tid: 0, Time: 1.323199 ms
+tid: 3, Time3: 11.673107
+tid: 1, Time1: 0.001143
+tid: 3, Time4: 0.242741
+tid: 2, Time1: 0.001109
+step: 17, tid: 3, Time: 12.655619 ms
+tid: 0, Time1: 0.001106
+tid: 3, Time1: 0.000901
+tid: 1, Time2: 0.680755
+tid: 0, Time2: 0.665743
+tid: 2, Time2: 0.688126
+tid: 3, Time2: 0.684475
+tid: 1, Time3: 0.473674
+tid: 2, Time3: 0.465499
+tid: 0, Time3: 0.474945
+tid: 1, Time4: 0.119811
+tid: 2, Time4: 0.111818
+step: 18, tid: 1, Time: 1.312087 ms
+tid: 0, Time4: 0.121016
+step: 18, tid: 0, Time: 1.288286 ms
+step: 18, tid: 2, Time: 1.300478 ms
+tid: 3, Time3: 11.719147
+tid: 1, Time1: 0.001099
+tid: 3, Time4: 0.225717
+tid: 2, Time1: 0.000922
+step: 18, tid: 3, Time: 12.660738 ms
+tid: 0, Time1: 0.001126
+tid: 3, Time1: 0.000966
+tid: 1, Time2: 0.648981
+tid: 2, Time2: 0.659956
+tid: 0, Time2: 0.649736
+tid: 3, Time2: 0.661734
+tid: 1, Time3: 0.480789
+tid: 2, Time3: 0.46892
+tid: 0, Time3: 0.475242
+tid: 1, Time4: 0.119677
+step: 19, tid: 1, Time: 1.282379 ms
+tid: 2, Time4: 0.110807
+tid: 0, Time4: 0.120552
+step: 19, tid: 2, Time: 1.266846 ms
+step: 19, tid: 0, Time: 1.27967 ms
+tid: 3, Time3: 11.696003
+tid: 1, Time1: 0.001275
+tid: 3, Time4: 0.227043
+tid: 2, Time1: 0.001043
+tid: 0, Time1: 0.001106
+step: 19, tid: 3, Time: 12.619452 ms
+tid: 3, Time1: 0.000971
+tid: 1, Time2: 0.652064
+tid: 0, Time2: 0.630694
+tid: 2, Time2: 0.665309
+tid: 3, Time2: 0.67204
+tid: 1, Time3: 0.482718
+tid: 0, Time3: 0.48905
+tid: 2, Time3: 0.47149
+tid: 1, Time4: 0.119679
+step: 20, tid: 1, Time: 1.286891 ms
+tid: 2, Time4: 0.114507
+tid: 0, Time4: 0.128879
+step: 20, tid: 2, Time: 1.278686 ms
+step: 20, tid: 0, Time: 1.27469 ms
+tid: 3, Time3: 11.726446
+tid: 1, Time1: 0.001026
+tid: 3, Time4: 0.232202
+tid: 2, Time1: 0.001138
+tid: 0, Time1: 0.001041
+step: 20, tid: 3, Time: 12.663707 ms
+tid: 3, Time1: 0.000981
+tid: 1, Time2: 0.672622
+tid: 0, Time2: 0.666492
+tid: 2, Time2: 0.687151
+tid: 3, Time2: 0.684919
+tid: 1, Time3: 0.484629
+tid: 0, Time3: 0.482416
+tid: 2, Time3: 0.487297
+tid: 1, Time4: 0.118655
+step: 21, tid: 1, Time: 1.307677 ms
+tid: 0, Time4: 0.121705
+tid: 2, Time4: 0.114358
+step: 21, tid: 2, Time: 1.315762 ms
+step: 21, tid: 0, Time: 1.306671 ms
+tid: 3, Time3: 11.696625
+tid: 1, Time1: 0.001062
+tid: 3, Time4: 0.227795
+step: 21, tid: 3, Time: 12.645483 ms
+tid: 2, Time1: 0.001108
+tid: 0, Time1: 0.001076
+tid: 3, Time1: 0.000972
+tid: 1, Time2: 0.653699
+tid: 0, Time2: 0.654717
+tid: 2, Time2: 0.677041
+tid: 3, Time2: 0.679401
+tid: 1, Time3: 0.491035
+tid: 0, Time3: 0.489933
+tid: 2, Time3: 0.485071
+tid: 1, Time4: 0.138088
+step: 22, tid: 1, Time: 1.317441 ms
+tid: 0, Time4: 0.123126
+tid: 2, Time4: 0.116523
+step: 22, tid: 2, Time: 1.307236 ms
+step: 22, tid: 0, Time: 1.300304 ms
+tid: 3, Time3: 11.724137
+tid: 1, Time1: 0.001133
+tid: 3, Time4: 0.224409
+tid: 2, Time1: 0.00114
+tid: 0, Time1: 0.001097
+step: 22, tid: 3, Time: 12.661481 ms
+tid: 3, Time1: 0.001051
+tid: 1, Time2: 0.671851
+tid: 0, Time2: 0.661562
+tid: 2, Time2: 0.684238
+tid: 3, Time2: 0.680538
+tid: 1, Time3: 0.482719
+tid: 2, Time3: 0.474517
+tid: 0, Time3: 0.491927
+tid: 1, Time4: 0.119732
+step: 23, tid: 1, Time: 1.308832 ms
+tid: 2, Time4: 0.114359
+tid: 0, Time4: 0.123604
+step: 23, tid: 2, Time: 1.301534 ms
+step: 23, tid: 0, Time: 1.309424 ms
+tid: 3, Time3: 11.709274
+tid: 1, Time1: 0.001186
+tid: 3, Time4: 0.226105
+tid: 2, Time1: 0.00101
+tid: 0, Time1: 0.001061
+step: 23, tid: 3, Time: 12.649685 ms
+tid: 3, Time1: 0.001045
+tid: 1, Time2: 0.655628
+tid: 0, Time2: 0.645662
+tid: 2, Time2: 0.674569
+tid: 3, Time2: 0.664866
+tid: 1, Time3: 0.473909
+tid: 0, Time3: 0.48198
+tid: 2, Time3: 0.462874
+tid: 1, Time4: 0.120346
+step: 24, tid: 1, Time: 1.284772 ms
+tid: 2, Time4: 0.111111
+tid: 0, Time4: 0.132231
+step: 24, tid: 2, Time: 1.290253 ms
+step: 24, tid: 0, Time: 1.28724 ms
+tid: 3, Time3: 11.723974
+tid: 1, Time1: 0.00103
+tid: 3, Time4: 0.226643
+step: 24, tid: 3, Time: 12.649191 ms
+tid: 2, Time1: 0.001008
+tid: 0, Time1: 0.00108
+tid: 3, Time1: 0.000985
+tid: 1, Time2: 0.648041
+tid: 0, Time2: 0.648636
+tid: 2, Time2: 0.676461
+tid: 3, Time2: 0.668069
+tid: 1, Time3: 0.479849
+tid: 2, Time3: 0.462356
+tid: 0, Time3: 0.476322
+tid: 1, Time4: 0.11886
+step: 25, tid: 1, Time: 1.278285 ms
+tid: 2, Time4: 0.126568
+tid: 0, Time4: 0.129653
+step: 25, tid: 0, Time: 1.282401 ms
+step: 25, tid: 2, Time: 1.29838 ms
+tid: 3, Time3: 11.706339
+tid: 1, Time1: 0.000987
+tid: 3, Time4: 0.230108
+tid: 2, Time1: 0.001115
+tid: 0, Time1: 0.001082
+step: 25, tid: 3, Time: 12.635446 ms
+tid: 3, Time1: 0.000879
+tid: 1, Time2: 0.637692
+tid: 0, Time2: 0.635981
+tid: 2, Time2: 0.652176
+tid: 3, Time2: 0.660038
+tid: 1, Time3: 0.482636
+tid: 2, Time3: 0.472595
+tid: 0, Time3: 0.480185
+tid: 1, Time4: 0.11914
+step: 26, tid: 1, Time: 1.27288 ms
+tid: 2, Time4: 0.11243
+tid: 0, Time4: 0.124287
+step: 26, tid: 2, Time: 1.263413 ms
+step: 26, tid: 0, Time: 1.266018 ms
+tid: 3, Time3: 11.733716
+tid: 1, Time1: 0.000923
+tid: 3, Time4: 0.224364
+tid: 2, Time1: 0.00104
+step: 26, tid: 3, Time: 12.644971 ms
+tid: 0, Time1: 0.001023
+tid: 3, Time1: 0.000921
+tid: 1, Time2: 0.646439
+tid: 0, Time2: 0.63791
+tid: 2, Time2: 0.659716
+tid: 3, Time2: 0.655478
+tid: 1, Time3: 0.486075
+tid: 0, Time3: 0.488829
+tid: 2, Time3: 0.4801
+tid: 1, Time4: 0.118463
+step: 27, tid: 1, Time: 1.283034 ms
+tid: 2, Time4: 0.12117
+tid: 0, Time4: 0.130969
+step: 27, tid: 2, Time: 1.28914 ms
+step: 27, tid: 0, Time: 1.290859 ms
+tid: 3, Time3: 11.753025
+tid: 1, Time1: 0.000993
+tid: 3, Time4: 0.222871
+tid: 2, Time1: 0.001073
+tid: 0, Time1: 0.001002
+step: 27, tid: 3, Time: 12.664912 ms
+tid: 3, Time1: 0.000919
+tid: 1, Time2: 0.638378
+tid: 0, Time2: 0.636551
+tid: 2, Time2: 0.653808
+tid: 3, Time2: 0.664865
+tid: 1, Time3: 0.496553
+tid: 0, Time3: 0.488384
+tid: 2, Time3: 0.48023
+tid: 1, Time4: 0.119078
+tid: 2, Time4: 0.1155
+step: 28, tid: 1, Time: 1.286887 ms
+tid: 0, Time4: 0.126293
+step: 28, tid: 2, Time: 1.275974 ms
+step: 28, tid: 0, Time: 1.278978 ms
+tid: 3, Time3: 11.74329
+tid: 1, Time1: 0.001014
+tid: 3, Time4: 0.229587
+step: 28, tid: 3, Time: 12.671209 ms
+tid: 2, Time1: 0.001028
+tid: 0, Time1: 0.001076
+tid: 3, Time1: 0.000968
+tid: 1, Time2: 0.65582
+tid: 0, Time2: 0.650432
+tid: 2, Time2: 0.66512
+tid: 3, Time2: 0.669005
+tid: 1, Time3: 0.480129
+tid: 2, Time3: 0.470649
+tid: 0, Time3: 0.491542
+tid: 1, Time4: 0.120231
+tid: 2, Time4: 0.113402
+step: 29, tid: 1, Time: 1.288662 ms
+step: 29, tid: 2, Time: 1.276299 ms
+tid: 0, Time4: 0.120146
+step: 29, tid: 0, Time: 1.287983 ms
+tid: 3, Time3: 11.746729
+tid: 1, Time1: 0.001082
+tid: 3, Time4: 0.225721
+tid: 2, Time1: 0.001033
+tid: 0, Time1: 0.001157
+step: 29, tid: 3, Time: 12.679843 ms
+tid: 3, Time1: 0.000981
+tid: 1, Time2: 0.641983
+tid: 0, Time2: 0.632483
+tid: 2, Time2: 0.651263
+tid: 3, Time2: 0.658434
+tid: 1, Time3: 0.47366
+tid: 2, Time3: 0.461264
+tid: 0, Time3: 0.482099
+tid: 1, Time4: 0.127947
+step: 30, tid: 1, Time: 1.27819 ms
+tid: 2, Time4: 0.127326
+tid: 0, Time4: 0.120947
+step: 30, tid: 2, Time: 1.272317 ms
+step: 30, tid: 0, Time: 1.261396 ms
+tid: 3, Time3: 11.767398
+tid: 1, Time1: 0.000982
+tid: 3, Time4: 0.228259
+tid: 2, Time1: 0.00096
+step: 30, tid: 3, Time: 12.686386 ms
+tid: 0, Time1: 0.001252
+tid: 3, Time1: 0.001051
+tid: 1, Time2: 0.647596
+tid: 2, Time2: 0.659974
+tid: 0, Time2: 0.649145
+tid: 3, Time2: 0.655054
+tid: 1, Time3: 0.472138
+tid: 2, Time3: 0.462867
+tid: 0, Time3: 0.47776
+tid: 1, Time4: 0.121683
+step: 31, tid: 1, Time: 1.273211 ms
+tid: 2, Time4: 0.122228
+tid: 0, Time4: 0.121121
+step: 31, tid: 2, Time: 1.278046 ms
+step: 31, tid: 0, Time: 1.275084 ms
+tid: 3, Time3: 11.774731
+tid: 1, Time1: 0.001046
+tid: 3, Time4: 0.22565
+tid: 2, Time1: 0.001188
+tid: 0, Time1: 0.001055
+step: 31, tid: 3, Time: 12.688935 ms
+tid: 3, Time1: 0.000865
+tid: 1, Time2: 0.626235
+tid: 2, Time2: 0.635226
+tid: 0, Time2: 0.633892
+tid: 3, Time2: 0.647403
+tid: 1, Time3: 0.477745
+tid: 2, Time3: 0.471665
+tid: 0, Time3: 0.474591
+tid: 1, Time4: 0.119576
+step: 32, tid: 1, Time: 1.257433 ms
+tid: 2, Time4: 0.110831
+step: 32, tid: 2, Time: 1.245682 ms
+tid: 0, Time4: 0.128692
+step: 32, tid: 0, Time: 1.265438 ms
+tid: 3, Time3: 11.769222
+tid: 1, Time1: 0.001029
+tid: 3, Time4: 0.221848
+tid: 2, Time1: 0.001075
+tid: 0, Time1: 0.000988
+step: 32, tid: 3, Time: 12.676436 ms
+tid: 3, Time1: 0.000895
+tid: 1, Time2: 0.638054
+tid: 0, Time2: 0.628836
+tid: 2, Time2: 0.641922
+tid: 3, Time2: 0.646622
+tid: 1, Time3: 0.483749
+tid: 2, Time3: 0.470503
+tid: 0, Time3: 0.48242
+tid: 1, Time4: 0.120185
+step: 33, tid: 1, Time: 1.275065 ms
+tid: 2, Time4: 0.116159
+tid: 0, Time4: 0.12184
+step: 33, tid: 2, Time: 1.256016 ms
+step: 33, tid: 0, Time: 1.260817 ms
+tid: 3, Time3: 11.752628
+tid: 1, Time1: 0.000931
+tid: 3, Time4: 0.223601
+tid: 2, Time1: 0.001027
+tid: 0, Time1: 0.001043
+step: 33, tid: 3, Time: 12.656098 ms
+tid: 3, Time1: 0.000969
+tid: 1, Time2: 0.631505
+tid: 0, Time2: 0.630193
+tid: 2, Time2: 0.646568
+tid: 3, Time2: 0.65181
+tid: 1, Time3: 0.49052
+tid: 2, Time3: 0.477781
+tid: 0, Time3: 0.489297
+tid: 1, Time4: 0.119772
+step: 34, tid: 1, Time: 1.276359 ms
+tid: 2, Time4: 0.121102
+tid: 0, Time4: 0.130323
+step: 34, tid: 2, Time: 1.277989 ms
+step: 34, tid: 0, Time: 1.282097 ms
+tid: 3, Time3: 11.766915
+tid: 1, Time1: 0.000994
+tid: 3, Time4: 0.225178
+step: 34, tid: 3, Time: 12.671743 ms
+tid: 2, Time1: 0.001114
+tid: 0, Time1: 0.001014
+tid: 3, Time1: 0.001018
+tid: 1, Time2: 0.649505
+tid: 2, Time2: 0.657917
+tid: 0, Time2: 0.642441
+tid: 3, Time2: 0.651554
+tid: 1, Time3: 0.469775
+tid: 2, Time3: 0.462176
+tid: 0, Time3: 0.473689
+tid: 1, Time4: 0.116332
+step: 35, tid: 1, Time: 1.266975 ms
+tid: 2, Time4: 0.109907
+tid: 0, Time4: 0.119392
+step: 35, tid: 2, Time: 1.259121 ms
+step: 35, tid: 0, Time: 1.261572 ms
+tid: 3, Time3: 11.781515
+tid: 1, Time1: 0.001143
+tid: 3, Time4: 0.230849
+step: 35, tid: 3, Time: 12.698899 ms
+tid: 2, Time1: 0.001064
+tid: 0, Time1: 0.000969
+tid: 3, Time1: 0.000955
+tid: 1, Time2: 0.63196
+tid: 0, Time2: 0.618013
+tid: 2, Time2: 0.643255
+tid: 3, Time2: 0.648576
+tid: 1, Time3: 0.481596
+tid: 2, Time3: 0.470156
+tid: 0, Time3: 0.487951
+tid: 1, Time4: 0.120703
+step: 36, tid: 1, Time: 1.267491 ms
+tid: 2, Time4: 0.110638
+tid: 0, Time4: 0.120607
+step: 36, tid: 2, Time: 1.249365 ms
+step: 36, tid: 0, Time: 1.259921 ms
+tid: 3, Time3: 11.780958
+tid: 1, Time1: 0.00105
+tid: 3, Time4: 0.222445
+tid: 2, Time1: 0.001107
+tid: 0, Time1: 0.001104
+step: 36, tid: 3, Time: 12.685639 ms
+tid: 3, Time1: 0.000971
+tid: 1, Time2: 0.638563
+tid: 0, Time2: 0.627365
+tid: 2, Time2: 0.65073
+tid: 3, Time2: 0.644989
+tid: 1, Time3: 0.471677
+tid: 0, Time3: 0.485072
+tid: 2, Time3: 0.477743
+tid: 1, Time4: 0.131419
+step: 37, tid: 1, Time: 1.277877 ms
+tid: 2, Time4: 0.115569
+tid: 0, Time4: 0.13089
+step: 37, tid: 0, Time: 1.270767 ms
+step: 37, tid: 2, Time: 1.271088 ms
+tid: 3, Time3: 11.784149
+tid: 1, Time1: 0.00125
+tid: 3, Time4: 0.222296
+tid: 2, Time1: 0.000977
+step: 37, tid: 3, Time: 12.682017 ms
+tid: 0, Time1: 0.000953
+tid: 3, Time1: 0.000969
+tid: 1, Time2: 0.636996
+tid: 2, Time2: 0.644015
+tid: 0, Time2: 0.630555
+tid: 3, Time2: 0.654806
+tid: 1, Time3: 0.473111
+tid: 2, Time3: 0.474791
+tid: 0, Time3: 0.486782
+tid: 1, Time4: 0.132978
+step: 38, tid: 1, Time: 1.277261 ms
+tid: 2, Time4: 0.124396
+tid: 0, Time4: 0.124343
+step: 38, tid: 2, Time: 1.275073 ms
+step: 38, tid: 0, Time: 1.266914 ms
+tid: 3, Time3: 11.780773
+tid: 1, Time1: 0.001041
+tid: 3, Time4: 0.225097
+tid: 2, Time1: 0.000978
+step: 38, tid: 3, Time: 12.692321 ms
+tid: 0, Time1: 0.00099
+tid: 3, Time1: 0.000954
+tid: 1, Time2: 0.632617
+tid: 0, Time2: 0.630294
+tid: 2, Time2: 0.642717
+tid: 3, Time2: 0.651931
+tid: 1, Time3: 0.477778
+tid: 0, Time3: 0.486181
+tid: 2, Time3: 0.49172
+tid: 1, Time4: 0.137962
+step: 39, tid: 1, Time: 1.280291 ms
+tid: 2, Time4: 0.118593
+tid: 0, Time4: 0.124197
+step: 39, tid: 0, Time: 1.273354 ms
+step: 39, tid: 2, Time: 1.287482 ms
+tid: 3, Time3: 11.785871
+tid: 1, Time1: 0.001198
+tid: 3, Time4: 0.234899
+tid: 2, Time1: 0.001197
+step: 39, tid: 3, Time: 12.701317 ms
+tid: 0, Time1: 0.00103
+tid: 3, Time1: 0.000963
+tid: 1, Time2: 0.647696
+tid: 0, Time2: 0.649867
+tid: 2, Time2: 0.668549
+tid: 3, Time2: 0.663966
+tid: 1, Time3: 0.482908
+tid: 2, Time3: 0.480952
+tid: 0, Time3: 0.489923
+tid: 1, Time4: 0.120428
+step: 40, tid: 1, Time: 1.283768 ms
+tid: 2, Time4: 0.120859
+tid: 0, Time4: 0.129772
+step: 40, tid: 2, Time: 1.297222 ms
+step: 40, tid: 0, Time: 1.297793 ms
+tid: 3, Time3: 11.760943
+tid: 1, Time1: 0.001169
+tid: 3, Time4: 0.230535
+tid: 2, Time1: 0.001078
+step: 40, tid: 3, Time: 12.682979 ms
+tid: 0, Time1: 0.000982
+tid: 3, Time1: 0.001004
+tid: 1, Time2: 0.644573
+tid: 0, Time2: 0.630679
+tid: 2, Time2: 0.659782
+tid: 3, Time2: 0.651625
+tid: 1, Time3: 0.469943
+tid: 0, Time3: 0.482958
+tid: 2, Time3: 0.465167
+tid: 1, Time4: 0.118867
+step: 41, tid: 1, Time: 1.272447 ms
+tid: 2, Time4: 0.122286
+tid: 0, Time4: 0.128471
+step: 41, tid: 0, Time: 1.270235 ms
+step: 41, tid: 2, Time: 1.281623 ms
+tid: 3, Time3: 11.789753
+tid: 1, Time1: 0.001103
+tid: 3, Time4: 0.222266
+tid: 2, Time1: 0.00105
+tid: 0, Time1: 0.001022
+step: 41, tid: 3, Time: 12.697005 ms
+tid: 3, Time1: 0.001036
+tid: 1, Time2: 0.636846
+tid: 0, Time2: 0.62846
+tid: 2, Time2: 0.651219
+tid: 3, Time2: 0.64934
+tid: 1, Time3: 0.47241
+tid: 2, Time3: 0.462579
+tid: 0, Time3: 0.478174
+tid: 1, Time4: 0.119176
+tid: 2, Time4: 0.11112
+step: 42, tid: 1, Time: 1.262348 ms
+tid: 0, Time4: 0.119165
+step: 42, tid: 2, Time: 1.251204 ms
+step: 42, tid: 0, Time: 1.251324 ms
+tid: 3, Time3: 11.792386
+tid: 1, Time1: 0.001055
+tid: 3, Time4: 0.229139
+tid: 2, Time1: 0.001055
+step: 42, tid: 3, Time: 12.697848 ms
+tid: 0, Time1: 0.001066
+tid: 3, Time1: 0.001074
+tid: 1, Time2: 0.635946
+tid: 0, Time2: 0.627533
+tid: 2, Time2: 0.642576
+tid: 3, Time2: 0.644595
+tid: 1, Time3: 0.481472
+tid: 2, Time3: 0.477023
+tid: 0, Time3: 0.486577
+tid: 1, Time4: 0.11844
+step: 43, tid: 1, Time: 1.268624 ms
+tid: 2, Time4: 0.121043
+tid: 0, Time4: 0.119982
+step: 43, tid: 2, Time: 1.271034 ms
+step: 43, tid: 0, Time: 1.260458 ms
+tid: 3, Time3: 11.799395
+tid: 1, Time1: 0.00107
+tid: 3, Time4: 0.224329
+tid: 2, Time1: 0.004381
+tid: 0, Time1: 0.000908
+step: 43, tid: 3, Time: 12.701643 ms
+tid: 3, Time1: 0.001048
+tid: 1, Time2: 0.628439
+tid: 0, Time2: 0.621463
+tid: 2, Time2: 0.634435
+tid: 3, Time2: 0.645175
+tid: 1, Time3: 0.482992
+tid: 2, Time3: 0.475039
+tid: 0, Time3: 0.482278
+tid: 1, Time4: 0.119664
+tid: 2, Time4: 0.121403
+step: 44, tid: 1, Time: 1.264388 ms
+tid: 0, Time4: 0.123548
+step: 44, tid: 2, Time: 1.260335 ms
+step: 44, tid: 0, Time: 1.252657 ms
+tid: 3, Time3: 11.778292
+tid: 1, Time1: 0.00128
+tid: 3, Time4: 0.223282
+tid: 2, Time1: 0.001212
+tid: 0, Time1: 0.001117
+step: 44, tid: 3, Time: 12.678449 ms
+tid: 3, Time1: 0.001005
+tid: 1, Time2: 0.644237
+tid: 0, Time2: 0.636937
+tid: 2, Time2: 0.655627
+tid: 3, Time2: 0.659435
+tid: 1, Time3: 0.490351
+tid: 2, Time3: 0.481329
+tid: 0, Time3: 0.491653
+tid: 1, Time4: 0.121528
+tid: 2, Time4: 0.121425
+step: 45, tid: 1, Time: 1.28864 ms
+tid: 0, Time4: 0.130299
+step: 45, tid: 2, Time: 1.301298 ms
+step: 45, tid: 0, Time: 1.292407 ms
+tid: 3, Time3: 11.767987
+tid: 1, Time1: 0.001082
+tid: 3, Time4: 0.224674
+tid: 2, Time1: 0.00096
+tid: 0, Time1: 0.001064
+step: 45, tid: 3, Time: 12.680217 ms
+tid: 3, Time1: 0.000978
+tid: 1, Time2: 0.646571
+tid: 0, Time2: 0.635163
+tid: 2, Time2: 0.659456
+tid: 3, Time2: 0.660438
+tid: 1, Time3: 0.470463
+tid: 2, Time3: 0.461573
+tid: 0, Time3: 0.479245
+tid: 1, Time4: 0.120563
+step: 46, tid: 1, Time: 1.271314 ms
+tid: 2, Time4: 0.11247
+tid: 0, Time4: 0.120033
+step: 46, tid: 0, Time: 1.261548 ms
+step: 46, tid: 2, Time: 1.261255 ms
+tid: 3, Time3: 11.78046
+tid: 1, Time1: 0.00104
+tid: 3, Time4: 0.232691
+tid: 2, Time1: 0.001128
+tid: 0, Time1: 0.001016
+step: 46, tid: 3, Time: 12.705268 ms
+tid: 3, Time1: 0.000917
+tid: 1, Time2: 0.637842
+tid: 0, Time2: 0.62472
+tid: 2, Time2: 0.648617
+tid: 3, Time2: 0.653648
+tid: 1, Time3: 0.484329
+tid: 2, Time3: 0.474212
+tid: 0, Time3: 0.491038
+tid: 1, Time4: 0.120624
+step: 47, tid: 1, Time: 1.275006 ms
+tid: 2, Time4: 0.11255
+tid: 0, Time4: 0.12126
+step: 47, tid: 2, Time: 1.271365 ms
+step: 47, tid: 0, Time: 1.271061 ms
+tid: 3, Time3: 11.778805
+tid: 1, Time1: 0.001047
+tid: 3, Time4: 0.22349
+tid: 2, Time1: 0.001056
+tid: 0, Time1: 0.001118
+step: 47, tid: 3, Time: 12.688283 ms
+tid: 3, Time1: 0.00089
+tid: 1, Time2: 0.630146
+tid: 0, Time2: 0.630932
+tid: 2, Time2: 0.641407
+tid: 3, Time2: 0.654832
+tid: 1, Time3: 0.477415
+tid: 2, Time3: 0.476664
+tid: 0, Time3: 0.491196
+tid: 1, Time4: 0.129042
+step: 48, tid: 1, Time: 1.270188 ms
+tid: 2, Time4: 0.1206
+tid: 0, Time4: 0.1319
+step: 48, tid: 2, Time: 1.270388 ms
+step: 48, tid: 0, Time: 1.286437 ms
+tid: 3, Time3: 11.80572
+tid: 1, Time1: 0.001305
+tid: 3, Time4: 0.229147
+step: 48, tid: 3, Time: 12.717861 ms
+tid: 2, Time1: 0.001389
+tid: 0, Time1: 0.001291
+tid: 3, Time1: 0.001013
+tid: 1, Time2: 0.642072
+tid: 0, Time2: 0.631073
+tid: 2, Time2: 0.653506
+tid: 3, Time2: 0.65206
+tid: 1, Time3: 0.486359
+tid: 2, Time3: 0.480192
+tid: 0, Time3: 0.491169
+tid: 1, Time4: 0.120482
+step: 49, tid: 1, Time: 1.282541 ms
+tid: 2, Time4: 0.112163
+tid: 0, Time4: 0.12268
+step: 49, tid: 2, Time: 1.279364 ms
+step: 49, tid: 0, Time: 1.278186 ms
+tid: 3, Time3: 11.792961
+tid: 1, Time1: 0.001037
+tid: 3, Time4: 0.224031
+step: 49, tid: 3, Time: 12.702374 ms
+tid: 2, Time1: 0.000949
+tid: 0, Time1: 0.001059
+tid: 3, Time1: 0.000954
+tid: 1, Time2: 0.620783
+tid: 0, Time2: 0.622124
+tid: 2, Time2: 0.642889
+tid: 3, Time2: 0.647554
+tid: 1, Time3: 0.503831
+tid: 2, Time3: 0.47988
+tid: 0, Time3: 0.488759
+tid: 1, Time4: 0.118854
+step: 50, tid: 1, Time: 1.27617 ms
+tid: 2, Time4: 0.121651
+tid: 0, Time4: 0.124661
+step: 50, tid: 2, Time: 1.272098 ms
+step: 50, tid: 0, Time: 1.260927 ms
+tid: 3, Time3: 11.803721
+tid: 1, Time1: 0.001057
+tid: 3, Time4: 0.236515
+step: 50, tid: 3, Time: 12.716394 ms
+tid: 2, Time1: 0.001296
+tid: 0, Time1: 0.001085
+tid: 3, Time1: 0.000957
+tid: 1, Time2: 0.650457
+tid: 0, Time2: 0.634676
+tid: 2, Time2: 0.66787
+tid: 3, Time2: 0.662025
+tid: 1, Time3: 0.482514
+tid: 0, Time3: 0.490399
+tid: 2, Time3: 0.473568
+tid: 1, Time4: 0.119397
+step: 51, tid: 1, Time: 1.285953 ms
+tid: 2, Time4: 0.110471
+tid: 0, Time4: 0.120126
+step: 51, tid: 0, Time: 1.270987 ms
+step: 51, tid: 2, Time: 1.278884 ms
+tid: 3, Time3: 11.782825
+tid: 1, Time1: 0.000957
+tid: 3, Time4: 0.223151
+tid: 2, Time1: 0.001003
+step: 51, tid: 3, Time: 12.695902 ms
+tid: 0, Time1: 0.001036
+tid: 3, Time1: 0.000881
+tid: 1, Time2: 0.638463
+tid: 0, Time2: 0.62392
+tid: 2, Time2: 0.644248
+tid: 3, Time2: 0.652582
+tid: 1, Time3: 0.47322
+tid: 2, Time3: 0.4636
+tid: 0, Time3: 0.486604
+tid: 1, Time4: 0.127083
+tid: 2, Time4: 0.124171
+step: 52, tid: 1, Time: 1.272414 ms
+tid: 0, Time4: 0.121762
+step: 52, tid: 2, Time: 1.258882 ms
+step: 52, tid: 0, Time: 1.25763 ms
+tid: 3, Time3: 11.810824
+tid: 1, Time1: 0.001036
+tid: 3, Time4: 0.226219
+step: 52, tid: 3, Time: 12.72902 ms
+tid: 2, Time1: 0.001056
+tid: 0, Time1: 0.001179
+tid: 3, Time1: 0.000977
+tid: 1, Time2: 0.641326
+tid: 2, Time2: 0.65275
+tid: 0, Time2: 0.642055
+tid: 3, Time2: 0.649203
+tid: 1, Time3: 0.475506
+tid: 2, Time3: 0.471337
+tid: 0, Time3: 0.480296
+tid: 1, Time4: 0.120441
+step: 53, tid: 1, Time: 1.271174 ms
+tid: 2, Time4: 0.120798
+tid: 0, Time4: 0.120831
+step: 53, tid: 2, Time: 1.272056 ms
+step: 53, tid: 0, Time: 1.26916 ms
+tid: 3, Time3: 11.801067
+tid: 1, Time1: 0.000976
+tid: 3, Time4: 0.224778
+tid: 2, Time1: 0.001197
+tid: 0, Time1: 0.001203
+step: 53, tid: 3, Time: 12.707586 ms
+tid: 3, Time1: 0.000905
+tid: 1, Time2: 0.633171
+tid: 0, Time2: 0.626437
+tid: 2, Time2: 0.6546
+tid: 3, Time2: 0.650419
+tid: 1, Time3: 0.482516
+tid: 0, Time3: 0.47196
+tid: 2, Time3: 0.462126
+tid: 1, Time4: 0.120223
+step: 54, tid: 1, Time: 1.269432 ms
+tid: 2, Time4: 0.108772
+step: 54, tid: 2, Time: 1.252088 ms
+tid: 0, Time4: 0.131122
+step: 54, tid: 0, Time: 1.260886 ms
+tid: 3, Time3: 11.800038
+tid: 1, Time1: 0.00091
+tid: 3, Time4: 0.230089
+tid: 2, Time1: 0.001028
+step: 54, tid: 3, Time: 12.711889 ms
+tid: 0, Time1: 0.000984
+tid: 3, Time1: 0.001013
+tid: 1, Time2: 0.625991
+tid: 0, Time2: 0.621987
+tid: 2, Time2: 0.63762
+tid: 3, Time2: 0.644444
+tid: 1, Time3: 0.481134
+tid: 2, Time3: 0.477556
+tid: 0, Time3: 0.495591
+tid: 1, Time4: 0.120033
+step: 55, tid: 1, Time: 1.258576 ms
+tid: 2, Time4: 0.122619
+tid: 0, Time4: 0.129862
+step: 55, tid: 2, Time: 1.269754 ms
+step: 55, tid: 0, Time: 1.274107 ms
+tid: 3, Time3: 11.813751
+tid: 1, Time1: 0.00104
+tid: 3, Time4: 0.22377
+tid: 2, Time1: 0.001052
+step: 55, tid: 3, Time: 12.714035 ms
+tid: 0, Time1: 0.001092
+tid: 3, Time1: 0.001009
+tid: 1, Time2: 0.65168
+tid: 2, Time2: 0.660346
+tid: 0, Time2: 0.644452
+tid: 3, Time2: 0.661618
+tid: 1, Time3: 0.47505
+tid: 2, Time3: 0.473799
+tid: 0, Time3: 0.47964
+tid: 1, Time4: 0.128165
+step: 56, tid: 1, Time: 1.286635 ms
+tid: 2, Time4: 0.122606
+step: 56, tid: 2, Time: 1.282557 ms
+tid: 0, Time4: 0.123281
+step: 56, tid: 0, Time: 1.272915 ms
+tid: 3, Time3: 11.813236
+tid: 1, Time1: 0.001142
+tid: 3, Time4: 0.235225
+tid: 2, Time1: 0.001057
+tid: 0, Time1: 0.001149
+step: 56, tid: 3, Time: 12.744166 ms
+tid: 3, Time1: 0.000992
+tid: 1, Time2: 0.633638
+tid: 0, Time2: 0.628118
+tid: 2, Time2: 0.648666
+tid: 3, Time2: 0.649486
+tid: 1, Time3: 0.474555
+tid: 2, Time3: 0.461409
+tid: 0, Time3: 0.472004
+tid: 1, Time4: 0.119801
+step: 57, tid: 1, Time: 1.262133 ms
+tid: 2, Time4: 0.118297
+tid: 0, Time4: 0.121363
+step: 57, tid: 2, Time: 1.263024 ms
+step: 57, tid: 0, Time: 1.251156 ms
+tid: 3, Time3: 11.790086
+tid: 1, Time1: 0.001175
+tid: 3, Time4: 0.222814
+tid: 2, Time1: 0.001268
+tid: 0, Time1: 0.001075
+step: 57, tid: 3, Time: 12.69465 ms
+tid: 3, Time1: 0.000934
+tid: 1, Time2: 0.638834
+tid: 0, Time2: 0.629878
+tid: 2, Time2: 0.655285
+tid: 3, Time2: 0.652207
+tid: 1, Time3: 0.486978
+tid: 0, Time3: 0.478777
+tid: 2, Time3: 0.463961
+tid: 1, Time4: 0.124709
+step: 58, tid: 1, Time: 1.283721 ms
+tid: 2, Time4: 0.11665
+tid: 0, Time4: 0.129562
+step: 58, tid: 2, Time: 1.271775 ms
+step: 58, tid: 0, Time: 1.268987 ms
+tid: 3, Time3: 11.791656
+tid: 1, Time1: 0.001187
+tid: 3, Time4: 0.236616
+tid: 2, Time1: 0.001206
+step: 58, tid: 3, Time: 12.708103 ms
+tid: 0, Time1: 0.001224
+tid: 3, Time1: 0.001012
+tid: 1, Time2: 0.628409
+tid: 0, Time2: 0.620292
+tid: 2, Time2: 0.639381
+tid: 3, Time2: 0.645391
+tid: 1, Time3: 0.483156
+tid: 2, Time3: 0.471602
+tid: 0, Time3: 0.486268
+tid: 1, Time4: 0.119319
+step: 59, tid: 1, Time: 1.264253 ms
+tid: 2, Time4: 0.112193
+tid: 0, Time4: 0.122297
+step: 59, tid: 2, Time: 1.259065 ms
+step: 59, tid: 0, Time: 1.262799 ms
+tid: 3, Time3: 11.825665
+tid: 1, Time1: 0.001
+tid: 3, Time4: 0.229179
+step: 59, tid: 3, Time: 12.72912 ms
+tid: 2, Time1: 0.001009
+tid: 0, Time1: 0.001079
+tid: 3, Time1: 0.000861
+tid: 1, Time2: 0.630396
+tid: 2, Time2: 0.634535
+tid: 0, Time2: 0.623634
+tid: 3, Time2: 0.642433
+tid: 1, Time3: 0.489201
+tid: 2, Time3: 0.487402
+tid: 0, Time3: 0.494914
+tid: 1, Time4: 0.126172
+tid: 2, Time4: 0.112399
+step: 60, tid: 1, Time: 1.279472 ms
+step: 60, tid: 2, Time: 1.261923 ms
+tid: 0, Time4: 0.124688
+step: 60, tid: 0, Time: 1.272568 ms
+tid: 3, Time3: 11.828789
+tid: 1, Time1: 0.001014
+tid: 3, Time4: 0.224049
+tid: 2, Time1: 0.000957
+step: 60, tid: 3, Time: 12.727158 ms
+tid: 0, Time1: 0.001067
+tid: 3, Time1: 0.000918
+tid: 1, Time2: 0.634173
+tid: 0, Time2: 0.622842
+tid: 2, Time2: 0.647042
+tid: 3, Time2: 0.653812
+tid: 1, Time3: 0.493926
+tid: 2, Time3: 0.478472
+tid: 0, Time3: 0.494461
+tid: 1, Time4: 0.121323
+step: 61, tid: 1, Time: 1.281236 ms
+tid: 2, Time4: 0.120724
+tid: 0, Time4: 0.124393
+step: 61, tid: 0, Time: 1.267133 ms
+step: 61, tid: 2, Time: 1.273595 ms
+tid: 3, Time3: 11.812922
+tid: 1, Time1: 0.000854
+tid: 3, Time4: 0.226913
+tid: 2, Time1: 0.001133
+tid: 0, Time1: 0.001124
+step: 61, tid: 3, Time: 12.726603 ms
+tid: 3, Time1: 0.001089
+tid: 1, Time2: 0.641099
+tid: 0, Time2: 0.634789
+tid: 2, Time2: 0.653393
+tid: 3, Time2: 0.655948
+tid: 1, Time3: 0.473166
+tid: 2, Time3: 0.463127
+tid: 0, Time3: 0.48292
+tid: 1, Time4: 0.1201
+step: 62, tid: 1, Time: 1.266522 ms
+tid: 2, Time4: 0.109724
+tid: 0, Time4: 0.121036
+step: 62, tid: 2, Time: 1.261833 ms
+step: 62, tid: 0, Time: 1.270683 ms
+tid: 3, Time3: 11.838432
+tid: 3, Time4: 0.266887
+step: 62, tid: 3, Time: 12.798395 ms
+tid: 1, Time1: 0.00262
+tid: 2, Time1: 0.001182
+tid: 0, Time1: 0.001029
+tid: 3, Time1: 0.001068
+tid: 0, Time2: 0.618692
+tid: 0, Time3: 0.029404
+tid: 2, Time2: 0.638335
+tid: 2, Time3: 0.025249
+tid: 3, Time2: 0.670061
+tid: 2, Time4: 0.119892
+tid: 0, Time4: 0.129828
+step: 63, tid: 0, Time: 0.795247 ms
+step: 63, tid: 2, Time: 0.806487 ms
+tid: 1, Time2: 0.866791
+tid: 1, Time3: 0.032499
+tid: 1, Time4: 0.159916
+step: 63, tid: 1, Time: 1.088197 ms
+tid: 3, Time3: 11.771794
+tid: 3, Time4: 0.232719
+step: 63, tid: 3, Time: 12.70062 ms
+Time: 820.599881 ms
+Time: 820.563514 ms
+Time: 820.592217 ms
+Time: 820.591173 ms
+
+tid: 1, Time1: 1.701462
+tid: 3, Time1: 2.296776
+tid: 2, Time1: 3.181428
+tid: 0, Time1: 3.578838
+tid: 0, Time2: 4.004684
+tid: 0, Time3: 0.693723
+tid: 1, Time2: 9.596725
+tid: 1, Time3: 0.543223
+tid: 2, Time2: 11.749901
+tid: 2, Time3: 0.578532
+tid: 3, Time2: 13.225229
+tid: 3, Time3: 2.916708
+tid: 3, Time4: 0.506469
+tid: 2, Time4: 3.67429
+tid: 1, Time4: 7.360176
+step: 0, tid: 3, Time: 19.132469
+tid: 0, Time4: 10.67117
+step: 0, tid: 2, Time: 19.492438
+tid: 3, Time1: 0.001354
+step: 0, tid: 1, Time: 19.481119
+tid: 2, Time1: 0.002494
+tid: 1, Time1: 0.001291
+step: 0, tid: 0, Time: 19.668657
+tid: 0, Time1: 0.001772
+tid: 0, Time2: 3.489119
+tid: 0, Time3: 0.59362
+tid: 1, Time2: 7.19156
+tid: 1, Time3: 0.499525
+tid: 2, Time2: 10.567863
+tid: 2, Time3: 0.55095
+tid: 3, Time2: 11.614347
+tid: 3, Time3: 2.820649
+tid: 3, Time4: 0.488765
+tid: 2, Time4: 3.49984
+tid: 1, Time4: 6.930297
+tid: 0, Time4: 10.269944
+step: 1, tid: 3, Time: 15.125902
+step: 1, tid: 2, Time: 14.993735
+step: 1, tid: 1, Time: 14.938001
+step: 1, tid: 0, Time: 14.707753
+tid: 3, Time1: 0.001306
+tid: 2, Time1: 0.001651
+tid: 0, Time1: 0.001842
+tid: 1, Time1: 0.00128
+tid: 0, Time2: 3.812379
+tid: 0, Time3: 0.542622
+tid: 1, Time2: 7.229497
+tid: 1, Time3: 0.502646
+tid: 2, Time2: 10.647229
+tid: 2, Time3: 0.634906
+tid: 3, Time2: 11.446603
+tid: 3, Time3: 2.782636
+tid: 3, Time4: 0.499476
+tid: 2, Time4: 3.389394
+tid: 0, Time4: 10.238714
+tid: 1, Time4: 6.975925
+step: 2, tid: 3, Time: 14.889994
+step: 2, tid: 0, Time: 14.906422
+step: 2, tid: 2, Time: 15.114965
+tid: 3, Time1: 0.001172
+tid: 0, Time1: 0.001952
+tid: 2, Time1: 0.002317
+step: 2, tid: 1, Time: 15.04524
+tid: 1, Time1: 0.001216
+tid: 0, Time2: 3.561516
+tid: 0, Time3: 0.548936
+tid: 1, Time2: 6.501798
+tid: 1, Time3: 0.511301
+tid: 2, Time2: 10.151214
+tid: 2, Time3: 0.682411
+tid: 3, Time2: 11.008901
+tid: 3, Time3: 2.840258
+tid: 3, Time4: 0.497226
+tid: 2, Time4: 3.39139
+tid: 1, Time4: 6.950246
+tid: 0, Time4: 10.333981
+step: 3, tid: 3, Time: 14.551305
+step: 3, tid: 1, Time: 14.252307
+step: 3, tid: 2, Time: 14.666811
+tid: 3, Time1: 0.001135
+tid: 1, Time1: 0.001278
+step: 3, tid: 0, Time: 14.815724
+tid: 2, Time1: 0.002157
+tid: 0, Time1: 0.001563
+tid: 0, Time2: 3.55533
+tid: 0, Time3: 0.52588
+tid: 1, Time2: 7.267696
+tid: 1, Time3: 0.522872
+tid: 2, Time2: 10.460369
+tid: 2, Time3: 0.658336
+tid: 3, Time2: 11.352802
+tid: 3, Time3: 2.857336
+tid: 3, Time4: 0.463777
+tid: 1, Time4: 6.98126
+step: 4, tid: 3, Time: 14.973742
+tid: 0, Time4: 10.347068
+step: 4, tid: 1, Time: 14.961968
+tid: 3, Time1: 0.001149
+tid: 2, Time4: 3.56309
+tid: 1, Time1: 0.001196
+step: 4, tid: 0, Time: 14.79034
+tid: 0, Time1: 0.001691
+step: 4, tid: 2, Time: 15.441293
+tid: 2, Time1: 0.001491
+tid: 0, Time2: 3.470525
+tid: 0, Time3: 0.538878
+tid: 1, Time2: 7.106525
+tid: 1, Time3: 0.507592
+tid: 2, Time2: 9.959078
+tid: 2, Time3: 0.561363
+tid: 3, Time2: 11.301648
+tid: 3, Time3: 2.840753
+tid: 0, Time4: 10.130886
+tid: 3, Time4: 0.505916
+tid: 2, Time4: 3.540072
+step: 5, tid: 0, Time: 14.306585
+step: 5, tid: 3, Time: 14.843599
+tid: 1, Time4: 6.891864
+step: 5, tid: 2, Time: 14.283987
+tid: 0, Time1: 0.001532
+tid: 3, Time1: 0.001158
+step: 5, tid: 1, Time: 14.908429
+tid: 2, Time1: 0.001626
+tid: 1, Time1: 0.001259
+tid: 0, Time2: 3.550043
+tid: 0, Time3: 0.551252
+tid: 1, Time2: 6.437694
+tid: 1, Time3: 0.512692
+tid: 2, Time2: 10.016812
+tid: 2, Time3: 0.524808
+tid: 3, Time2: 10.839459
+tid: 3, Time3: 2.878224
+tid: 3, Time4: 0.475592
+tid: 2, Time4: 3.528632
+tid: 1, Time4: 6.964902
+step: 6, tid: 3, Time: 14.382818
+tid: 0, Time4: 10.222026
+step: 6, tid: 2, Time: 14.346608
+tid: 3, Time1: 0.001157
+step: 6, tid: 1, Time: 14.156583
+step: 6, tid: 0, Time: 14.771031
+tid: 2, Time1: 0.00203
+tid: 1, Time1: 0.001237
+tid: 0, Time1: 0.001332
+tid: 0, Time2: 3.670706
+tid: 0, Time3: 0.527216
+tid: 1, Time2: 7.017923
+tid: 1, Time3: 0.510121
+tid: 2, Time2: 10.385239
+tid: 2, Time3: 0.552954
+tid: 3, Time2: 11.333189
+tid: 3, Time3: 2.832862
+tid: 3, Time4: 0.483319
+tid: 2, Time4: 3.477226
+tid: 0, Time4: 10.148886
+tid: 1, Time4: 6.992411
+step: 7, tid: 2, Time: 14.682515
+step: 7, tid: 3, Time: 14.843752
+step: 7, tid: 1, Time: 14.756734
+tid: 2, Time1: 0.00169
+step: 7, tid: 0, Time: 14.760274
+tid: 3, Time1: 0.001135
+tid: 1, Time1: 0.001323
+tid: 0, Time1: 0.001581
+tid: 0, Time2: 3.626326
+tid: 0, Time3: 0.547964
+tid: 1, Time2: 7.123305
+tid: 1, Time3: 0.527548
+tid: 2, Time2: 10.653951
+tid: 2, Time3: 0.519607
+tid: 3, Time2: 11.172925
+tid: 3, Time3: 2.855988
+tid: 3, Time4: 0.496012
+tid: 1, Time4: 6.856614
+tid: 0, Time4: 10.265867
+tid: 2, Time4: 3.67827
+step: 8, tid: 1, Time: 14.743506
+step: 8, tid: 0, Time: 14.657651
+step: 8, tid: 3, Time: 14.702054
+step: 8, tid: 2, Time: 15.094323
+tid: 0, Time1: 0.001743
+tid: 1, Time1: 0.001394
+tid: 3, Time1: 0.001149
+tid: 2, Time1: 0.001775
+tid: 0, Time2: 3.505257
+tid: 0, Time3: 0.54912
+tid: 1, Time2: 6.870126
+tid: 1, Time3: 0.605246
+tid: 2, Time2: 9.993479
+tid: 2, Time3: 0.521985
+tid: 3, Time2: 10.834073
+tid: 3, Time3: 2.850302
+tid: 0, Time4: 10.276188
+tid: 1, Time4: 6.902442
+tid: 3, Time4: 0.693464
+step: 9, tid: 0, Time: 14.509201
+step: 9, tid: 1, Time: 14.581229
+step: 9, tid: 3, Time: 14.560162
+tid: 2, Time4: 3.676885
+tid: 0, Time1: 0.001907
+tid: 1, Time1: 0.00116
+tid: 3, Time1: 0.001407
+step: 9, tid: 2, Time: 14.703545
+tid: 2, Time1: 0.001693
+tid: 0, Time2: 3.535766
+tid: 0, Time3: 0.518069
+tid: 1, Time2: 6.818655
+tid: 1, Time3: 0.507121
+tid: 2, Time2: 9.663732
+tid: 2, Time3: 0.536446
+tid: 3, Time2: 10.882487
+tid: 3, Time3: 2.672771
+tid: 3, Time4: 0.570619
+tid: 2, Time4: 3.628106
+tid: 1, Time4: 7.027134
+step: 10, tid: 3, Time: 14.355227
+tid: 0, Time4: 10.403949
+step: 10, tid: 1, Time: 14.634307
+step: 10, tid: 2, Time: 14.121236
+step: 10, tid: 0, Time: 14.8497
+tid: 1, Time1: 0.001216
+tid: 3, Time1: 0.001391
+tid: 2, Time1: 0.001734
+tid: 0, Time1: 0.001428
+tid: 0, Time2: 3.662142
+tid: 0, Time3: 0.532953
+tid: 1, Time2: 7.155858
+tid: 1, Time3: 0.505805
+tid: 2, Time2: 10.405054
+tid: 2, Time3: 0.527957
+tid: 3, Time2: 11.501174
+tid: 3, Time3: 2.630327
+tid: 0, Time4: 10.343466
+tid: 3, Time4: 0.73764
+tid: 1, Time4: 7.145075
+step: 11, tid: 3, Time: 15.058575
+step: 11, tid: 0, Time: 14.731684
+step: 11, tid: 1, Time: 15.025533
+tid: 3, Time1: 0.00123
+tid: 2, Time4: 3.843786
+tid: 0, Time1: 0.002114
+tid: 1, Time1: 0.001154
+step: 11, tid: 2, Time: 15.392488
+tid: 2, Time1: 0.00175
+tid: 0, Time2: 3.638872
+tid: 0, Time3: 0.567736
+tid: 1, Time2: 6.860453
+tid: 1, Time3: 0.515717
+tid: 2, Time2: 9.87649
+tid: 2, Time3: 0.537695
+tid: 3, Time2: 11.14493
+tid: 3, Time3: 2.886251
+tid: 3, Time4: 0.485997
+tid: 2, Time4: 3.530331
+tid: 1, Time4: 6.986135
+step: 12, tid: 3, Time: 14.697403
+step: 12, tid: 2, Time: 14.160874
+step: 12, tid: 1, Time: 14.550338
+tid: 0, Time4: 10.245785
+tid: 3, Time1: 0.001156
+tid: 2, Time1: 0.001832
+tid: 1, Time1: 0.001258
+step: 12, tid: 0, Time: 14.963866
+tid: 0, Time1: 0.001738
+tid: 0, Time2: 3.471703
+tid: 0, Time3: 0.556771
+tid: 1, Time2: 7.348706
+tid: 1, Time3: 0.512488
+tid: 2, Time2: 10.730642
+tid: 2, Time3: 0.539796
+tid: 3, Time2: 11.480105
+tid: 3, Time3: 2.891677
+tid: 3, Time4: 0.608796
+tid: 1, Time4: 7.057152
+tid: 2, Time4: 3.718814
+step: 13, tid: 3, Time: 15.17362
+step: 13, tid: 1, Time: 15.114415
+tid: 0, Time4: 10.470341
+tid: 3, Time1: 0.001194
+step: 13, tid: 2, Time: 15.262148
+tid: 1, Time1: 0.001217
+step: 13, tid: 0, Time: 14.891068
+tid: 2, Time1: 0.001747
+tid: 0, Time1: 0.001412
+tid: 0, Time2: 3.472415
+tid: 0, Time3: 0.544239
+tid: 1, Time2: 7.210606
+tid: 1, Time3: 0.487129
+tid: 2, Time2: 10.436684
+tid: 2, Time3: 0.548656
+tid: 3, Time2: 11.369129
+tid: 3, Time3: 2.887778
+tid: 3, Time4: 0.497765
+step: 14, tid: 3, Time: 14.92226
+tid: 2, Time4: 3.528433
+tid: 0, Time4: 10.329848
+tid: 1, Time4: 6.991852
+step: 14, tid: 2, Time: 14.740795
+step: 14, tid: 0, Time: 14.601614
+step: 14, tid: 1, Time: 15.064806
+tid: 3, Time1: 0.001102
+tid: 2, Time1: 0.001454
+tid: 0, Time1: 0.002149
+tid: 1, Time1: 0.001234
+tid: 0, Time2: 3.668322
+tid: 0, Time3: 0.544195
+tid: 1, Time2: 6.94842
+tid: 1, Time3: 0.498388
+tid: 2, Time2: 10.407808
+tid: 2, Time3: 0.549325
+tid: 3, Time2: 11.203201
+tid: 3, Time3: 2.866278
+tid: 0, Time4: 10.217526
+tid: 3, Time4: 0.514337
+tid: 2, Time4: 3.608424
+step: 15, tid: 0, Time: 14.611708
+tid: 1, Time4: 6.973327
+step: 15, tid: 2, Time: 14.775944
+step: 15, tid: 3, Time: 14.779327
+step: 15, tid: 1, Time: 14.791577
+tid: 0, Time1: 0.001756
+tid: 2, Time1: 0.00166
+tid: 3, Time1: 0.00127
+tid: 1, Time1: 0.001093
+tid: 0, Time2: 3.578761
+tid: 0, Time3: 0.54511
+tid: 1, Time2: 6.825479
+tid: 1, Time3: 0.512894
+tid: 2, Time2: 10.238538
+tid: 2, Time3: 0.529218
+tid: 3, Time2: 10.850221
+tid: 3, Time3: 2.889278
+tid: 3, Time4: 0.495727
+tid: 2, Time4: 3.546322
+tid: 0, Time4: 10.296719
+step: 16, tid: 3, Time: 14.400579
+tid: 1, Time4: 6.938854
+step: 16, tid: 2, Time: 14.596161
+step: 16, tid: 1, Time: 14.647084
+step: 16, tid: 0, Time: 14.785735
+tid: 3, Time1: 0.001137
+tid: 2, Time1: 0.001661
+tid: 0, Time1: 0.001815
+tid: 1, Time1: 0.001263
+tid: 0, Time2: 3.642839
+tid: 0, Time3: 0.553383
+tid: 1, Time2: 7.006032
+tid: 1, Time3: 0.512372
+tid: 2, Time2: 10.425823
+tid: 2, Time3: 0.540755
+tid: 3, Time2: 11.264196
+tid: 3, Time3: 2.890678
+tid: 3, Time4: 0.478756
+tid: 0, Time4: 10.19842
+tid: 1, Time4: 6.948396
+tid: 2, Time4: 3.68195
+step: 17, tid: 3, Time: 14.858692
+step: 17, tid: 1, Time: 14.724358
+tid: 3, Time1: 0.00123
+tid: 1, Time1: 0.001216
+step: 17, tid: 0, Time: 14.794261
+step: 17, tid: 2, Time: 15.148484
+tid: 0, Time1: 0.002127
+tid: 2, Time1: 0.001828
+tid: 0, Time2: 3.473001
+tid: 0, Time3: 0.537536
+tid: 1, Time2: 7.256166
+tid: 1, Time3: 0.500206
+tid: 2, Time2: 10.084849
+tid: 2, Time3: 0.535296
+tid: 3, Time2: 11.341861
+tid: 3, Time3: 2.894137
+tid: 3, Time4: 0.480308
+tid: 2, Time4: 3.524744
+tid: 0, Time4: 10.25636
+step: 18, tid: 3, Time: 14.910217
+tid: 1, Time4: 7.058562
+step: 18, tid: 2, Time: 14.476308
+tid: 3, Time1: 0.001182
+step: 18, tid: 1, Time: 15.100774
+step: 18, tid: 0, Time: 14.591176
+tid: 2, Time1: 0.001754
+tid: 1, Time1: 0.001353
+tid: 0, Time1: 0.002037
+tid: 0, Time2: 3.588213
+tid: 0, Time3: 0.536229
+tid: 1, Time2: 6.950003
+tid: 1, Time3: 0.491449
+tid: 2, Time2: 10.434743
+tid: 2, Time3: 0.555746
+tid: 3, Time2: 11.276401
+tid: 3, Time3: 2.865012
+tid: 0, Time4: 10.182007
+tid: 3, Time4: 0.51008
+tid: 2, Time4: 3.558702
+step: 19, tid: 0, Time: 14.480173
+step: 19, tid: 3, Time: 14.856335
+step: 19, tid: 2, Time: 14.766878
+tid: 0, Time1: 0.001288
+tid: 3, Time1: 0.00104
+tid: 1, Time4: 6.938151
+tid: 2, Time1: 0.001668
+step: 19, tid: 1, Time: 15.020838
+tid: 1, Time1: 0.001288
+tid: 0, Time2: 3.549269
+tid: 0, Time3: 0.545637
+tid: 1, Time2: 6.380533
+tid: 1, Time3: 0.502154
+tid: 2, Time2: 10.102094
+tid: 2, Time3: 0.5329
+tid: 3, Time2: 10.912599
+tid: 3, Time3: 2.888143
+tid: 3, Time4: 0.470298
+tid: 2, Time4: 3.523037
+tid: 1, Time4: 6.968129
+tid: 0, Time4: 10.362813
+step: 20, tid: 3, Time: 14.44989
+step: 20, tid: 1, Time: 14.082662
+step: 20, tid: 2, Time: 14.585946
+tid: 3, Time1: 0.001105
+step: 20, tid: 0, Time: 14.818621
+tid: 1, Time1: 0.00134
+tid: 2, Time1: 0.002003
+tid: 0, Time1: 0.001478
+tid: 0, Time2: 3.639231
+tid: 0, Time3: 0.540015
+tid: 1, Time2: 7.248617
+tid: 1, Time3: 0.51422
+tid: 2, Time2: 10.500143
+tid: 2, Time3: 0.535333
+tid: 3, Time2: 11.321037
+tid: 3, Time3: 2.886086
+tid: 3, Time4: 0.479497
+tid: 2, Time4: 3.522858
+tid: 0, Time4: 10.323938
+tid: 1, Time4: 7.092954
+step: 21, tid: 3, Time: 14.874269
+step: 21, tid: 1, Time: 15.053925
+tid: 3, Time1: 0.001383
+step: 21, tid: 0, Time: 14.852828
+tid: 1, Time1: 0.001262
+step: 21, tid: 2, Time: 15.063016
+tid: 0, Time1: 0.001751
+tid: 2, Time1: 0.001676
+tid: 0, Time2: 3.575345
+tid: 0, Time3: 0.540668
+tid: 1, Time2: 7.190261
+tid: 1, Time3: 0.502502
+tid: 2, Time2: 10.100258
+tid: 2, Time3: 0.524997
+tid: 3, Time2: 11.271379
+tid: 3, Time3: 2.892022
+tid: 3, Time4: 0.477232
+tid: 2, Time4: 3.550656
+tid: 0, Time4: 10.295066
+tid: 1, Time4: 6.94581
+step: 22, tid: 2, Time: 14.359088
+step: 22, tid: 3, Time: 14.813078
+step: 22, tid: 1, Time: 15.004302
+step: 22, tid: 0, Time: 14.696551
+tid: 2, Time1: 0.00182
+tid: 1, Time1: 0.001228
+tid: 3, Time1: 0.001343
+tid: 0, Time1: 0.00163
+tid: 0, Time2: 3.479348
+tid: 0, Time3: 0.513991
+tid: 1, Time2: 7.220468
+tid: 1, Time3: 0.493431
+tid: 2, Time2: 10.647838
+tid: 2, Time3: 0.540343
+tid: 3, Time2: 11.265515
+tid: 3, Time3: 2.874094
+tid: 3, Time4: 0.482911
+tid: 2, Time4: 3.532522
+tid: 1, Time4: 7.046213
+step: 23, tid: 3, Time: 14.821212
+tid: 0, Time4: 10.25563
+step: 23, tid: 2, Time: 14.933372
+tid: 3, Time1: 0.001269
+step: 23, tid: 0, Time: 14.655815
+step: 23, tid: 1, Time: 14.997548
+tid: 2, Time1: 0.001781
+tid: 0, Time1: 0.00143
+tid: 1, Time1: 0.001846
+tid: 0, Time2: 3.595792
+tid: 0, Time3: 0.523087
+tid: 1, Time2: 6.873585
+tid: 1, Time3: 0.528406
+tid: 2, Time2: 10.4803
+tid: 2, Time3: 0.52892
+tid: 3, Time2: 11.336136
+tid: 3, Time3: 2.895099
+tid: 3, Time4: 0.473144
+tid: 1, Time4: 6.886874
+tid: 2, Time4: 3.565474
+tid: 0, Time4: 10.419356
+step: 24, tid: 1, Time: 14.51867
+step: 24, tid: 2, Time: 14.827381
+step: 24, tid: 3, Time: 14.852059
+tid: 1, Time1: 0.001364
+step: 24, tid: 0, Time: 14.818133
+tid: 3, Time1: 0.001237
+tid: 2, Time1: 0.001768
+tid: 0, Time1: 0.001447
+tid: 0, Time2: 3.6644
+tid: 0, Time3: 0.538084
+tid: 1, Time2: 7.331659
+tid: 1, Time3: 0.503592
+tid: 2, Time2: 10.598128
+tid: 2, Time3: 0.521468
+tid: 3, Time2: 11.195168
+tid: 3, Time3: 2.889804
+tid: 3, Time4: 0.471377
+tid: 1, Time4: 6.906348
+tid: 2, Time4: 3.568922
+step: 25, tid: 3, Time: 14.745612
+step: 25, tid: 1, Time: 14.960368
+step: 25, tid: 2, Time: 14.9507
+tid: 0, Time4: 10.336368
+tid: 1, Time1: 0.00118
+tid: 2, Time1: 0.001672
+step: 25, tid: 0, Time: 14.94746
+tid: 3, Time1: 0.00108
+tid: 0, Time1: 0.001461
+tid: 0, Time2: 3.477309
+tid: 0, Time3: 0.531174
+tid: 1, Time2: 7.417408
+tid: 1, Time3: 0.510373
+tid: 2, Time2: 10.699269
+tid: 2, Time3: 0.532292
+tid: 3, Time2: 11.473455
+tid: 3, Time3: 2.876075
+tid: 3, Time4: 0.467566
+tid: 2, Time4: 3.519923
+tid: 0, Time4: 10.368486
+tid: 1, Time4: 6.978488
+step: 26, tid: 3, Time: 15.008013
+step: 26, tid: 2, Time: 15.08279
+step: 26, tid: 0, Time: 14.658071
+tid: 3, Time1: 0.00127
+step: 26, tid: 1, Time: 15.31384
+tid: 2, Time1: 0.001648
+tid: 0, Time1: 0.001528
+tid: 1, Time1: 0.001364
+tid: 0, Time2: 3.732539
+tid: 0, Time3: 0.535935
+tid: 1, Time2: 6.933067
+tid: 1, Time3: 0.507895
+tid: 2, Time2: 10.528138
+tid: 2, Time3: 0.543656
+tid: 3, Time2: 11.281283
+tid: 3, Time3: 2.887538
+tid: 0, Time4: 10.254826
+tid: 3, Time4: 0.546631
+tid: 1, Time4: 7.009888
+step: 27, tid: 0, Time: 14.680389
+tid: 2, Time4: 3.585904
+step: 27, tid: 3, Time: 14.899961
+step: 27, tid: 1, Time: 14.608038
+tid: 3, Time1: 0.001188
+tid: 0, Time1: 0.001808
+step: 27, tid: 2, Time: 15.037434
+tid: 1, Time1: 0.001159
+tid: 2, Time1: 0.001678
+tid: 0, Time2: 3.690726
+tid: 0, Time3: 0.530481
+tid: 1, Time2: 6.832632
+tid: 1, Time3: 0.519601
+tid: 2, Time2: 9.93847
+tid: 2, Time3: 0.527134
+tid: 3, Time2: 11.044743
+tid: 3, Time3: 2.883059
+tid: 3, Time4: 0.468393
+tid: 0, Time4: 10.249896
+tid: 1, Time4: 6.941868
+tid: 2, Time4: 3.686863
+step: 28, tid: 0, Time: 14.775491
+step: 28, tid: 1, Time: 14.597699
+step: 28, tid: 2, Time: 14.409734
+step: 28, tid: 3, Time: 14.609116
+tid: 0, Time1: 0.001678
+tid: 1, Time1: 0.001178
+tid: 2, Time1: 0.001642
+tid: 3, Time1: 0.001292
+tid: 0, Time2: 3.57618
+tid: 0, Time3: 0.529622
+tid: 1, Time2: 6.917613
+tid: 1, Time3: 0.487975
+tid: 2, Time2: 10.246945
+tid: 2, Time3: 0.482104
+tid: 3, Time2: 10.841019
+tid: 3, Time3: 2.885433
+tid: 3, Time4: 0.477782
+tid: 2, Time4: 3.589233
+tid: 0, Time4: 10.361352
+step: 29, tid: 3, Time: 14.378131
+tid: 1, Time4: 6.992147
+step: 29, tid: 2, Time: 14.518424
+step: 29, tid: 0, Time: 14.648394
+tid: 3, Time1: 0.001145
+step: 29, tid: 1, Time: 14.75968
+tid: 2, Time1: 0.001091
+tid: 0, Time1: 0.001409
+tid: 1, Time1: 0.00133
+tid: 0, Time2: 3.543574
+tid: 0, Time3: 0.543612
+tid: 1, Time2: 6.729515
+tid: 1, Time3: 0.487863
+tid: 2, Time2: 10.344425
+tid: 2, Time3: 0.486755
+tid: 3, Time2: 11.106802
+tid: 3, Time3: 2.89678
+tid: 0, Time4: 10.218017
+tid: 3, Time4: 0.500876
+tid: 1, Time4: 6.969414
+tid: 2, Time4: 3.642616
+step: 30, tid: 0, Time: 14.45416
+step: 30, tid: 3, Time: 14.810319
+step: 30, tid: 2, Time: 14.77306
+step: 30, tid: 1, Time: 14.536123
+tid: 3, Time1: 0.001106
+tid: 2, Time1: 0.001257
+tid: 0, Time1: 0.00185
+tid: 1, Time1: 0.001338
+tid: 0, Time2: 3.640472
+tid: 0, Time3: 0.537255
+tid: 1, Time2: 6.572526
+tid: 1, Time3: 0.493281
+tid: 2, Time2: 10.312937
+tid: 2, Time3: 0.499181
+tid: 3, Time2: 11.081227
+tid: 3, Time3: 2.891735
+tid: 3, Time4: 0.488231
+tid: 2, Time4: 3.576018
+tid: 1, Time4: 6.976204
+step: 31, tid: 3, Time: 14.61338
+tid: 0, Time4: 10.410789
+step: 31, tid: 2, Time: 14.673265
+tid: 3, Time1: 0.001217
+step: 31, tid: 0, Time: 14.893137
+tid: 2, Time1: 0.001106
+step: 31, tid: 1, Time: 14.660706
+tid: 0, Time1: 0.001477
+tid: 1, Time1: 0.00103
+tid: 0, Time2: 3.555771
+tid: 0, Time3: 0.540438
+tid: 1, Time2: 6.755706
+tid: 1, Time3: 0.497816
+tid: 2, Time2: 10.46711
+tid: 2, Time3: 0.503594
+tid: 3, Time2: 11.325211
+tid: 3, Time3: 2.897489
+tid: 0, Time4: 10.203128
+tid: 3, Time4: 0.509624
+tid: 2, Time4: 3.625432
+step: 32, tid: 0, Time: 14.454752
+tid: 1, Time4: 6.961206
+step: 32, tid: 3, Time: 14.913634
+step: 32, tid: 2, Time: 14.749227
+tid: 0, Time1: 0.001713
+tid: 3, Time1: 0.001053
+tid: 2, Time1: 0.001344
+step: 32, tid: 1, Time: 14.639959
+tid: 1, Time1: 0.001357
+tid: 0, Time2: 3.543182
+tid: 0, Time3: 0.545718
+tid: 1, Time2: 6.433059
+tid: 1, Time3: 0.504183
+tid: 2, Time2: 10.074811
+tid: 2, Time3: 0.490714
+tid: 3, Time2: 10.880153
+tid: 3, Time3: 2.900497
+tid: 3, Time4: 0.473021
+tid: 1, Time4: 6.892949
+tid: 2, Time4: 3.634961
+tid: 0, Time4: 10.249454
+step: 33, tid: 1, Time: 14.057288
+step: 33, tid: 3, Time: 14.429526
+step: 33, tid: 2, Time: 14.386589
+tid: 1, Time1: 0.001161
+step: 33, tid: 0, Time: 14.663953
+tid: 3, Time1: 0.001269
+tid: 2, Time1: 0.001107
+tid: 0, Time1: 0.001987
+tid: 0, Time2: 3.613496
+tid: 0, Time3: 0.529326
+tid: 1, Time2: 7.286493
+tid: 1, Time3: 0.499334
+tid: 2, Time2: 10.537406
+tid: 2, Time3: 0.51467
+tid: 3, Time2: 11.259335
+tid: 3, Time3: 2.904699
+tid: 0, Time4: 10.231474
+tid: 2, Time4: 3.553779
+tid: 1, Time4: 6.971398
+tid: 3, Time4: 0.574304
+step: 34, tid: 2, Time: 14.827842
+step: 34, tid: 1, Time: 15.097253
+step: 34, tid: 0, Time: 14.750445
+step: 34, tid: 3, Time: 15.125049
+tid: 2, Time1: 0.001326
+tid: 1, Time1: 0.001292
+tid: 3, Time1: 0.00107
+tid: 0, Time1: 0.001975
+tid: 0, Time2: 3.905676
+tid: 0, Time3: 0.541651
+tid: 1, Time2: 7.295709
+tid: 1, Time3: 0.513199
+tid: 2, Time2: 10.721992
+tid: 2, Time3: 0.513539
+tid: 3, Time2: 11.22296
+tid: 3, Time3: 2.899099
+tid: 3, Time4: 0.478906
+tid: 2, Time4: 3.545078
+tid: 0, Time4: 10.269197
+step: 35, tid: 3, Time: 14.790825
+tid: 1, Time4: 7.056143
+step: 35, tid: 2, Time: 15.00077
+step: 35, tid: 0, Time: 15.054175
+step: 35, tid: 1, Time: 15.135366
+tid: 3, Time1: 0.001229
+tid: 2, Time1: 0.001211
+tid: 0, Time1: 0.001789
+tid: 1, Time1: 0.001216
+tid: 0, Time2: 3.634381
+tid: 0, Time3: 0.523721
+tid: 1, Time2: 6.860434
+tid: 1, Time3: 0.503378
+tid: 2, Time2: 10.441942
+tid: 2, Time3: 0.488139
+tid: 3, Time2: 11.170319
+tid: 3, Time3: 2.907961
+tid: 3, Time4: 0.484108
+tid: 2, Time4: 3.574263
+tid: 0, Time4: 10.298916
+tid: 1, Time4: 7.11655
+step: 36, tid: 2, Time: 14.74275
+step: 36, tid: 3, Time: 14.732935
+step: 36, tid: 0, Time: 14.723322
+tid: 2, Time1: 0.000996
+step: 36, tid: 1, Time: 14.694524
+tid: 3, Time1: 0.001157
+tid: 0, Time1: 0.0016
+tid: 1, Time1: 0.001185
+tid: 0, Time2: 3.658831
+tid: 0, Time3: 0.552151
+tid: 1, Time2: 6.935668
+tid: 1, Time3: 0.507384
+tid: 2, Time2: 10.517688
+tid: 2, Time3: 0.49171
+tid: 3, Time2: 11.105593
+tid: 3, Time3: 2.906913
+tid: 3, Time4: 0.479673
+tid: 2, Time4: 3.560465
+tid: 1, Time4: 6.928537
+tid: 0, Time4: 10.278421
+step: 37, tid: 3, Time: 14.64859
+step: 37, tid: 2, Time: 14.790515
+tid: 3, Time1: 0.001213
+tid: 2, Time1: 0.001289
+step: 37, tid: 0, Time: 14.947122
+step: 37, tid: 1, Time: 14.968695
+tid: 0, Time1: 0.001786
+tid: 1, Time1: 0.001182
+tid: 0, Time2: 3.534321
+tid: 0, Time3: 0.545453
+tid: 1, Time2: 6.870729
+tid: 1, Time3: 0.491869
+tid: 2, Time2: 10.558445
+tid: 2, Time3: 0.481477
+tid: 3, Time2: 11.291035
+tid: 3, Time3: 2.909677
+tid: 3, Time4: 0.479126
+tid: 2, Time4: 3.584376
+tid: 1, Time4: 6.977097
+tid: 0, Time4: 10.451674
+step: 38, tid: 2, Time: 14.897257
+step: 38, tid: 1, Time: 14.627052
+step: 38, tid: 3, Time: 14.840847
+step: 38, tid: 0, Time: 14.750893
+tid: 2, Time1: 0.001154
+tid: 3, Time1: 0.001229
+tid: 1, Time1: 0.001245
+tid: 0, Time1: 0.001691
+tid: 0, Time2: 3.74344
+tid: 0, Time3: 0.517383
+tid: 1, Time2: 7.28353
+tid: 1, Time3: 0.487058
+tid: 2, Time2: 10.716095
+tid: 2, Time3: 0.489056
+tid: 3, Time2: 11.31737
+tid: 3, Time3: 2.894616
+tid: 3, Time4: 0.489475
+tid: 1, Time4: 6.972733
+tid: 2, Time4: 3.624626
+tid: 0, Time4: 10.434057
+step: 39, tid: 1, Time: 15.02808
+step: 39, tid: 3, Time: 14.957127
+step: 39, tid: 0, Time: 15.016545
+tid: 1, Time1: 0.00121
+step: 39, tid: 2, Time: 15.202002
+tid: 3, Time1: 0.001159
+tid: 0, Time1: 0.001999
+tid: 2, Time1: 0.001129
+tid: 0, Time2: 3.663873
+tid: 0, Time3: 0.511875
+tid: 1, Time2: 7.12965
+tid: 1, Time3: 0.515409
+tid: 2, Time2: 10.304256
+tid: 2, Time3: 0.506678
+tid: 3, Time2: 11.088476
+tid: 3, Time3: 2.900482
+tid: 3, Time4: 0.472187
+tid: 2, Time4: 3.548245
+tid: 1, Time4: 6.924237
+step: 40, tid: 3, Time: 14.66093
+step: 40, tid: 2, Time: 14.581514
+tid: 0, Time4: 10.332155
+tid: 3, Time1: 0.001346
+tid: 2, Time1: 0.001085
+step: 40, tid: 1, Time: 14.829096
+step: 40, tid: 0, Time: 14.889533
+tid: 1, Time1: 0.001243
+tid: 0, Time1: 0.001848
+tid: 0, Time2: 3.479918
+tid: 0, Time3: 0.558721
+tid: 1, Time2: 6.95359
+tid: 1, Time3: 0.506713
+tid: 2, Time2: 10.700994
+tid: 2, Time3: 0.49648
+tid: 3, Time2: 11.383611
+tid: 3, Time3: 2.909829
+tid: 3, Time4: 0.489182
+tid: 0, Time4: 10.260293
+tid: 1, Time4: 6.983776
+step: 41, tid: 3, Time: 14.98053
+tid: 2, Time4: 3.715089
+step: 41, tid: 0, Time: 14.545484
+step: 41, tid: 1, Time: 14.676711
+tid: 3, Time1: 0.001258
+tid: 0, Time1: 0.001745
+tid: 1, Time1: 0.001094
+step: 41, tid: 2, Time: 15.210163
+tid: 2, Time1: 0.001126
+tid: 0, Time2: 3.581596
+tid: 0, Time3: 0.527358
+tid: 1, Time2: 6.923562
+tid: 1, Time3: 0.500229
+tid: 2, Time2: 9.918093
+tid: 2, Time3: 0.491789
+tid: 3, Time2: 11.071315
+tid: 3, Time3: 2.908277
+tid: 3, Time4: 0.488171
+tid: 2, Time4: 3.606866
+tid: 0, Time4: 10.337916
+tid: 1, Time4: 7.028678
+step: 42, tid: 3, Time: 14.694823
+step: 42, tid: 2, Time: 14.241745
+tid: 3, Time1: 0.001175
+tid: 2, Time1: 0.001234
+step: 42, tid: 1, Time: 14.886547
+step: 42, tid: 0, Time: 15.015335
+tid: 1, Time1: 0.001355
+tid: 0, Time1: 0.001801
+tid: 0, Time2: 3.558271
+tid: 0, Time3: 0.529526
+tid: 1, Time2: 6.943933
+tid: 1, Time3: 0.494542
+tid: 2, Time2: 10.602402
+tid: 2, Time3: 0.487223
+tid: 3, Time2: 11.357599
+tid: 3, Time3: 2.895522
+tid: 3, Time4: 0.498512
+tid: 2, Time4: 3.581973
+tid: 1, Time4: 7.000757
+step: 43, tid: 3, Time: 14.924787
+step: 43, tid: 2, Time: 14.870647
+tid: 0, Time4: 10.285812
+step: 43, tid: 1, Time: 14.612206
+tid: 2, Time1: 0.001163
+tid: 3, Time1: 0.001088
+tid: 1, Time1: 0.001249
+step: 43, tid: 0, Time: 14.829323
+tid: 0, Time1: 0.001567
+tid: 0, Time2: 3.4908
+tid: 0, Time3: 0.533868
+tid: 1, Time2: 7.19544
+tid: 1, Time3: 0.505426
+tid: 2, Time2: 10.704128
+tid: 2, Time3: 0.496652
+tid: 3, Time2: 11.408961
+tid: 3, Time3: 2.902965
+tid: 3, Time4: 0.479398
+tid: 2, Time4: 3.570827
+tid: 1, Time4: 6.973397
+step: 44, tid: 2, Time: 14.942326
+step: 44, tid: 3, Time: 15.010897
+step: 44, tid: 1, Time: 14.873059
+tid: 0, Time4: 10.260688
+tid: 3, Time1: 0.001297
+tid: 2, Time1: 0.001125
+step: 44, tid: 0, Time: 14.761775
+tid: 1, Time1: 0.001062
+tid: 0, Time1: 0.002034
+tid: 0, Time2: 3.612937
+tid: 0, Time3: 0.561626
+tid: 1, Time2: 7.298574
+tid: 1, Time3: 0.504375
+tid: 2, Time2: 10.712228
+tid: 2, Time3: 0.488447
+tid: 3, Time2: 11.347086
+tid: 3, Time3: 2.899315
+tid: 0, Time4: 10.202739
+tid: 3, Time4: 0.509612
+tid: 2, Time4: 3.652329
+step: 45, tid: 0, Time: 14.533895
+step: 45, tid: 3, Time: 14.942831
+tid: 1, Time4: 6.949751
+step: 45, tid: 2, Time: 15.027832
+tid: 3, Time1: 0.001187
+tid: 0, Time1: 0.001808
+tid: 2, Time1: 0.00114
+step: 45, tid: 1, Time: 15.135591
+tid: 1, Time1: 0.001212
+tid: 0, Time2: 3.675508
+tid: 0, Time3: 0.530341
+tid: 1, Time2: 6.559386
+tid: 1, Time3: 0.487923
+tid: 2, Time2: 10.253914
+tid: 2, Time3: 0.490863
+tid: 3, Time2: 11.041723
+tid: 3, Time3: 2.908087
+tid: 0, Time4: 10.270591
+tid: 3, Time4: 0.511517
+tid: 2, Time4: 3.655947
+step: 46, tid: 0, Time: 14.636613
+step: 46, tid: 3, Time: 14.682462
+step: 46, tid: 2, Time: 14.613629
+tid: 1, Time4: 7.011333
+tid: 0, Time1: 0.001824
+tid: 3, Time1: 0.001185
+tid: 2, Time1: 0.001168
+step: 46, tid: 1, Time: 14.53073
+tid: 1, Time1: 0.001197
+tid: 0, Time2: 3.579038
+tid: 0, Time3: 0.55131
+tid: 1, Time2: 6.485477
+tid: 1, Time3: 0.498806
+tid: 2, Time2: 10.219812
+tid: 2, Time3: 0.495322
+tid: 3, Time2: 10.941767
+tid: 3, Time3: 2.897118
+tid: 3, Time4: 0.476512
+tid: 2, Time4: 3.580827
+tid: 1, Time4: 6.973402
+tid: 0, Time4: 10.370887
+step: 47, tid: 2, Time: 14.513313
+step: 47, tid: 1, Time: 14.241435
+step: 47, tid: 0, Time: 14.732365
+step: 47, tid: 3, Time: 14.488489
+tid: 1, Time1: 0.001177
+tid: 2, Time1: 0.001074
+tid: 3, Time1: 0.001189
+tid: 0, Time1: 0.001906
+tid: 0, Time2: 3.909451
+tid: 0, Time3: 0.547913
+tid: 1, Time2: 7.310618
+tid: 1, Time3: 0.512078
+tid: 2, Time2: 10.695697
+tid: 2, Time3: 0.505768
+tid: 3, Time2: 11.209063
+tid: 3, Time3: 2.896975
+tid: 3, Time4: 0.469113
+tid: 2, Time4: 3.54758
+tid: 1, Time4: 6.921883
+tid: 0, Time4: 10.349228
+step: 48, tid: 3, Time: 14.758767
+step: 48, tid: 2, Time: 14.992171
+tid: 3, Time1: 0.001226
+step: 48, tid: 0, Time: 15.091959
+tid: 2, Time1: 0.001271
+step: 48, tid: 1, Time: 15.169866
+tid: 0, Time1: 0.001425
+tid: 1, Time1: 0.001393
+tid: 0, Time2: 3.506213
+tid: 0, Time3: 0.547406
+tid: 1, Time2: 6.854303
+tid: 1, Time3: 0.50095
+tid: 2, Time2: 10.561805
+tid: 2, Time3: 0.500709
+tid: 3, Time2: 11.272905
+tid: 3, Time3: 2.901368
+tid: 0, Time4: 10.212049
+tid: 3, Time4: 0.497769
+tid: 2, Time4: 3.619866
+step: 49, tid: 0, Time: 14.418762
+step: 49, tid: 3, Time: 14.871533
+tid: 1, Time4: 6.942689
+step: 49, tid: 2, Time: 14.890554
+tid: 0, Time1: 0.002128
+tid: 3, Time1: 0.001237
+tid: 2, Time1: 0.001368
+step: 49, tid: 1, Time: 14.731905
+tid: 1, Time1: 0.001416
+tid: 0, Time2: 3.641667
+tid: 0, Time3: 0.537502
+tid: 1, Time2: 6.448826
+tid: 1, Time3: 0.501181
+tid: 2, Time2: 10.109051
+tid: 2, Time3: 0.495412
+tid: 3, Time2: 10.919209
+tid: 3, Time3: 2.915408
+tid: 0, Time4: 10.24447
+tid: 3, Time4: 0.51161
+tid: 2, Time4: 3.646584
+step: 50, tid: 3, Time: 14.545496
+step: 50, tid: 0, Time: 14.579677
+tid: 1, Time4: 6.963667
+step: 50, tid: 2, Time: 14.438414
+tid: 0, Time1: 0.001923
+tid: 3, Time1: 0.001085
+tid: 2, Time1: 0.001153
+step: 50, tid: 1, Time: 14.381222
+tid: 1, Time1: 0.00122
+tid: 0, Time2: 3.547177
+tid: 0, Time3: 0.520537
+tid: 1, Time2: 6.448768
+tid: 1, Time3: 0.490263
+tid: 2, Time2: 10.064928
+tid: 2, Time3: 0.514036
+tid: 3, Time2: 10.863437
+tid: 3, Time3: 2.892636
+tid: 0, Time4: 10.224451
+tid: 3, Time4: 0.518001
+tid: 2, Time4: 3.621977
+step: 51, tid: 0, Time: 14.446799
+step: 51, tid: 3, Time: 14.495528
+step: 51, tid: 2, Time: 14.416038
+tid: 1, Time4: 6.960187
+tid: 0, Time1: 0.001815
+tid: 2, Time1: 0.000999
+tid: 3, Time1: 0.00121
+step: 51, tid: 1, Time: 14.389561
+tid: 1, Time1: 0.001203
+tid: 0, Time2: 3.563521
+tid: 0, Time3: 0.563256
+tid: 1, Time2: 6.470741
+tid: 1, Time3: 0.50443
+tid: 2, Time2: 10.232761
+tid: 2, Time3: 0.488929
+tid: 3, Time2: 10.853742
+tid: 3, Time3: 2.902877
+tid: 3, Time4: 0.469163
+tid: 2, Time4: 3.571115
+tid: 0, Time4: 10.283858
+step: 52, tid: 3, Time: 14.417443
+step: 52, tid: 2, Time: 14.509973
+tid: 1, Time4: 6.939682
+tid: 3, Time1: 0.001163
+step: 52, tid: 0, Time: 14.699346
+tid: 2, Time1: 0.001303
+step: 52, tid: 1, Time: 14.412029
+tid: 0, Time1: 0.002121
+tid: 1, Time1: 0.001308
+tid: 0, Time2: 3.584368
+tid: 0, Time3: 0.5393
+tid: 1, Time2: 6.794296
+tid: 1, Time3: 0.496478
+tid: 2, Time2: 10.504303
+tid: 2, Time3: 0.488872
+tid: 3, Time2: 11.280253
+tid: 3, Time3: 2.904248
+tid: 3, Time4: 0.466061
+tid: 2, Time4: 3.570745
+tid: 0, Time4: 10.278066
+tid: 1, Time4: 6.989062
+step: 53, tid: 2, Time: 14.7912
+step: 53, tid: 3, Time: 14.973478
+step: 53, tid: 0, Time: 14.762981
+step: 53, tid: 1, Time: 14.620675
+tid: 2, Time1: 0.001125
+tid: 0, Time1: 0.002003
+tid: 3, Time1: 0.001229
+tid: 1, Time1: 0.001223
+tid: 0, Time2: 3.595483
+tid: 0, Time3: 0.544297
+tid: 1, Time2: 6.936142
+tid: 1, Time3: 0.498897
+tid: 2, Time2: 10.36371
+tid: 2, Time3: 0.483692
+tid: 3, Time2: 10.922912
+tid: 3, Time3: 2.902831
+tid: 3, Time4: 0.491058
+tid: 1, Time4: 6.932134
+tid: 0, Time4: 10.279614
+step: 54, tid: 3, Time: 14.515653
+step: 54, tid: 1, Time: 14.585663
+tid: 2, Time4: 3.727994
+tid: 3, Time1: 0.00115
+tid: 1, Time1: 0.001208
+step: 54, tid: 0, Time: 14.715178
+step: 54, tid: 2, Time: 14.888858
+tid: 0, Time1: 0.00148
+tid: 2, Time1: 0.001292
+tid: 0, Time2: 3.499045
+tid: 0, Time3: 0.534461
+tid: 1, Time2: 7.218188
+tid: 1, Time3: 0.508775
+tid: 2, Time2: 10.1128
+tid: 2, Time3: 0.504896
+tid: 3, Time2: 11.27962
+tid: 3, Time3: 2.908982
+tid: 0, Time4: 10.216354
+tid: 3, Time4: 0.501635
+tid: 2, Time4: 3.629505
+step: 55, tid: 0, Time: 14.410789
+tid: 1, Time4: 6.939188
+step: 55, tid: 2, Time: 14.451386
+step: 55, tid: 3, Time: 14.943175
+tid: 0, Time1: 0.007837
+tid: 2, Time1: 0.001062
+step: 55, tid: 1, Time: 15.062453
+tid: 3, Time1: 0.00134
+tid: 1, Time1: 0.001357
+tid: 0, Time2: 4.133122
+tid: 0, Time3: 0.54258
+tid: 1, Time2: 7.07029
+tid: 1, Time3: 0.53922
+tid: 2, Time2: 10.802103
+tid: 2, Time3: 0.486945
+tid: 3, Time2: 11.368492
+tid: 3, Time3: 2.913013
+tid: 3, Time4: 0.472758
+tid: 2, Time4: 3.58644
+tid: 0, Time4: 10.371427
+tid: 1, Time4: 6.940263
+step: 56, tid: 2, Time: 15.103908
+step: 56, tid: 0, Time: 15.287522
+step: 56, tid: 3, Time: 15.016804
+step: 56, tid: 1, Time: 14.885244
+tid: 2, Time1: 0.001279
+tid: 3, Time1: 0.001108
+tid: 0, Time1: 0.001831
+tid: 1, Time1: 0.001189
+tid: 0, Time2: 3.709058
+tid: 0, Time3: 0.519906
+tid: 1, Time2: 6.950248
+tid: 1, Time3: 0.49
+tid: 2, Time2: 10.478542
+tid: 2, Time3: 0.49092
+tid: 3, Time2: 11.081353
+tid: 3, Time3: 2.909659
+tid: 3, Time4: 0.472991
+tid: 2, Time4: 3.57297
+tid: 1, Time4: 6.976604
+tid: 0, Time4: 10.43721
+step: 57, tid: 3, Time: 14.690491
+step: 57, tid: 1, Time: 14.724402
+step: 57, tid: 2, Time: 14.922256
+tid: 3, Time1: 0.001224
+tid: 1, Time1: 0.00118
+step: 57, tid: 0, Time: 14.969439
+tid: 2, Time1: 0.001284
+tid: 0, Time1: 0.001506
+tid: 0, Time2: 3.561902
+tid: 0, Time3: 0.529885
+tid: 1, Time2: 7.242582
+tid: 1, Time3: 0.510668
+tid: 2, Time2: 10.451077
+tid: 2, Time3: 0.490521
+tid: 3, Time2: 11.299161
+tid: 3, Time3: 2.915002
+tid: 0, Time4: 10.231623
+tid: 3, Time4: 0.502238
+tid: 2, Time4: 3.637604
+step: 58, tid: 0, Time: 14.479439
+step: 58, tid: 3, Time: 14.927803
+step: 58, tid: 2, Time: 14.773232
+tid: 1, Time4: 6.943249
+tid: 3, Time1: 0.001073
+tid: 2, Time1: 0.001166
+step: 58, tid: 1, Time: 15.128817
+tid: 0, Time1: 0.001792
+tid: 1, Time1: 0.001265
+tid: 0, Time2: 3.896474
+tid: 0, Time3: 0.534347
+tid: 1, Time2: 6.790904
+tid: 1, Time3: 0.513339
+tid: 2, Time2: 10.567115
+tid: 2, Time3: 0.496747
+tid: 3, Time2: 11.271201
+tid: 3, Time3: 2.904266
+tid: 3, Time4: 0.49682
+tid: 0, Time4: 10.371529
+tid: 1, Time4: 7.11517
+tid: 2, Time4: 3.795359
+step: 59, tid: 3, Time: 14.948668
+step: 59, tid: 0, Time: 15.109267
+step: 59, tid: 1, Time: 14.604614
+step: 59, tid: 2, Time: 15.142819
+tid: 3, Time1: 0.001131
+tid: 0, Time1: 0.001663
+tid: 2, Time1: 0.001106
+tid: 1, Time1: 0.001324
+tid: 0, Time2: 3.606078
+tid: 0, Time3: 0.559665
+tid: 1, Time2: 6.928677
+tid: 1, Time3: 0.508518
+tid: 2, Time2: 10.307829
+tid: 2, Time3: 0.488604
+tid: 3, Time2: 11.036134
+tid: 3, Time3: 2.929307
+tid: 3, Time4: 0.472913
+tid: 2, Time4: 3.583832
+tid: 1, Time4: 6.957357
+tid: 0, Time4: 10.31195
+step: 60, tid: 2, Time: 14.629436
+step: 60, tid: 1, Time: 14.660796
+step: 60, tid: 3, Time: 14.679511
+step: 60, tid: 0, Time: 14.813564
+tid: 1, Time1: 0.001167
+tid: 2, Time1: 0.001214
+tid: 3, Time1: 0.001234
+tid: 0, Time1: 0.001832
+tid: 0, Time2: 3.775238
+tid: 0, Time3: 0.506732
+tid: 1, Time2: 7.279707
+tid: 1, Time3: 0.507088
+tid: 2, Time2: 10.668224
+tid: 2, Time3: 0.512308
+tid: 3, Time2: 11.233714
+tid: 3, Time3: 2.929404
+tid: 3, Time4: 0.475958
+tid: 1, Time4: 6.941069
+tid: 0, Time4: 10.346251
+step: 61, tid: 1, Time: 14.945621
+tid: 2, Time4: 3.809092
+step: 61, tid: 3, Time: 15.000291
+step: 61, tid: 0, Time: 14.855461
+tid: 1, Time1: 0.001224
+tid: 3, Time1: 0.001194
+step: 61, tid: 2, Time: 15.320852
+tid: 0, Time1: 0.001156
+tid: 2, Time1: 0.001287
+tid: 0, Time2: 3.634237
+tid: 0, Time3: 0.514023
+tid: 1, Time2: 7.153524
+tid: 1, Time3: 0.507906
+tid: 2, Time2: 10.054469
+tid: 2, Time3: 0.516797
+tid: 3, Time2: 11.086734
+tid: 3, Time3: 2.929847
+tid: 3, Time4: 0.482088
+tid: 0, Time4: 10.310427
+step: 62, tid: 3, Time: 14.640888
+tid: 2, Time4: 3.716088
+step: 62, tid: 0, Time: 14.65654
+tid: 1, Time4: 6.998056
+tid: 3, Time1: 0.001305
+tid: 0, Time1: 0.001393
+step: 62, tid: 1, Time: 15.07561
+step: 62, tid: 2, Time: 14.489419
+tid: 1, Time1: 0.001277
+tid: 2, Time1: 0.001893
+tid: 0, Time2: 3.566478
+tid: 0, Time3: 0.039878
+tid: 1, Time2: 6.642821
+tid: 1, Time3: 0.05232
+tid: 2, Time2: 9.957564
+tid: 2, Time3: 0.026603
+tid: 3, Time2: 11.08977
+tid: 3, Time3: 2.874382
+tid: 0, Time4: 10.773961
+step: 63, tid: 0, Time: 14.510827
+tid: 3, Time4: 0.512777
+tid: 1, Time4: 7.434185
+tid: 2, Time4: 4.10718
+step: 63, tid: 1, Time: 14.260471
+step: 63, tid: 2, Time: 14.298504
+step: 63, tid: 3, Time: 14.770689
+
+tid: 2, Time1: 0.001009
+tid: 0, Time1: 0.001079
+tid: 3, Time1: 0.000861
+tid: 1, Time2: 0.630396
+tid: 2, Time2: 0.634535
+tid: 0, Time2: 0.623634
+tid: 3, Time2: 0.642433
+tid: 1, Time3: 0.489201
+tid: 2, Time3: 0.487402
+tid: 0, Time3: 0.494914
+tid: 1, Time4: 0.126172
+tid: 2, Time4: 0.112399
+step: 60, tid: 1, Time: 1.279472 ms
+step: 60, tid: 2, Time: 1.261923 ms
+tid: 0, Time4: 0.124688
+step: 60, tid: 0, Time: 1.272568 ms
+tid: 3, Time3: 11.828789
+tid: 1, Time1: 0.001014
+tid: 3, Time4: 0.224049
+tid: 2, Time1: 0.000957
+step: 60, tid: 3, Time: 12.727158 ms
+
+tid: 3, Time1: 0.001131
+tid: 0, Time1: 0.001663
+tid: 2, Time1: 0.001106
+tid: 1, Time1: 0.001324
+tid: 0, Time2: 3.606078
+tid: 0, Time3: 0.559665
+tid: 1, Time2: 6.928677
+tid: 1, Time3: 0.508518
+tid: 2, Time2: 10.307829
+tid: 2, Time3: 0.488604
+tid: 3, Time2: 11.036134
+tid: 3, Time3: 2.929307
+tid: 3, Time4: 0.472913
+tid: 2, Time4: 3.583832
+tid: 1, Time4: 6.957357
+tid: 0, Time4: 10.31195
+step: 60, tid: 2, Time: 14.629436
+step: 60, tid: 1, Time: 14.660796
+step: 60, tid: 3, Time: 14.679511
+step: 60, tid: 0, Time: 14.813564
+
+0.001079   0.001663   
+0.623634   3.606078
+0.494914   0.559665     tid = 0
+0.124688   10.31195
+1.272568   14.813564
+
+0.000861   0.001131   0.001223
+0.642433   11.036134  0.816409
+11.828789  2.929307   2.756876    tid = 3
+0.224049   0.472913   2.198366
+12.727158  14.679511  6.027689    
+
+  main     py_threads  py_threads without sync and barrier in inference
+
+
+without sync and barrier
+tid: 3, Time1: 0.001223
+tid: 1, Time1: 0.001066
+tid: 2, Time1: 0.001147
+tid: 0, Time1: 0.001356
+tid: 3, Time2: 0.816409
+tid: 1, Time2: 3.40688
+tid: 3, Time3: 2.756876
+tid: 2, Time2: 3.580429
+tid: 0, Time2: 3.506502
+tid: 1, Time3: 0.838574
+tid: 2, Time3: 1.157024
+tid: 0, Time3: 1.45014
+tid: 1, Time4: 1.464083
+tid: 3, Time4: 2.198366
+tid: 0, Time4: 0.607714
+step: 60, tid: 1, Time: 5.849251
+tid: 2, Time4: 1.048673
+step: 60, tid: 0, Time: 5.744561
+step: 60, tid: 3, Time: 6.027689
+tid: 1, Time1: 0.001132
+tid: 0, Time1: 0.001148
+step: 60, tid: 2, Time: 6.103773
