@@ -1375,7 +1375,7 @@ class GenerationSession(object):
             worker.recv_tensor(final_output_ids)
 
         #manifold.Controller().barrier()
-        tensorrt_llm.Controller().barrier()
+        #tensorrt_llm.Controller().barrier()
         return final_output_ids
 
     def finalize_decoder(self, context_lengths, batch_size, beam_width, scfg):

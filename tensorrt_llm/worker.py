@@ -100,9 +100,10 @@ class Controller:
             worker.join()
         print("[Manifold] All workers joined")
 
-    def barrier(self):
-        stream = torch.cuda.current_stream()
-        stream.synchronize()
+    def barrier(self, stream_sync=False):
+        if stream_sync:
+            stream = torch.cuda.current_stream()
+            stream.synchronize()
         self.__barrier.wait()
 
     def get_tid_from_idmap(self, ident):
