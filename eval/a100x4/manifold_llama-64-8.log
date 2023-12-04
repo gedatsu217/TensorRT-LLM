@@ -130,8 +130,8 @@ Input: "<s>The capital of China is"
 Output: "Beijing. The capital of the"
 Input: "<s>The capital of China is"
 Output: "Beijing. The capital of the"
-Time: 170.00976 ms
-Time: 169.896715 ms
-Time: 141.583963 ms
-Time: 169.90027 ms
+Time: 141.417334 ms
+Time: 141.444773 ms
+Time: 141.43148 ms
+Time: 141.437088 ms
 /home/gedatsu/TensorRT-LLM/examples/llama

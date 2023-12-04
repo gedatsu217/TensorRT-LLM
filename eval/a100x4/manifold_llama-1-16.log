@@ -4,8 +4,8 @@ Runing mpirun -n 4 --allow-run-as-root python3 run.py --input_tokens ./inputs/in
 Running the float16 engine ...
 Input: "<s>The capital of China is"
 Output: "Beijing. The capital of the United States is Washington, D.C"
-Time: 196.606507 ms
-Time: 196.610111 ms
-Time: 195.365488 ms
-Time: 196.608215 ms
+Time: 194.373621 ms
+Time: 194.408862 ms
+Time: 194.390265 ms
+Time: 194.402886 ms
 /home/gedatsu/TensorRT-LLM/examples/llama

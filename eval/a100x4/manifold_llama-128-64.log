@@ -258,8 +258,8 @@ Input: "<s>The capital of China is"
 Output: "Beijing. The capital of the United States is Washington, D.C. The capital of France is Paris. The capital of Russia is Moscow. The capital of the United Kingdom is London. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of"
 Input: "<s>The capital of China is"
 Output: "Beijing. The capital of the United States is Washington, D.C. The capital of France is Paris. The capital of Russia is Moscow. The capital of the United Kingdom is London. The capital of Germany is Berlin. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of"
-Time: 1500.400144 ms
-Time: 1501.866976 ms
-Time: 1366.382328 ms
-Time: 1501.650624 ms
+Time: 1368.576322 ms
+Time: 1368.562771 ms
+Time: 1368.567054 ms
+Time: 1368.56233 ms
 /home/gedatsu/TensorRT-LLM/examples/llama
