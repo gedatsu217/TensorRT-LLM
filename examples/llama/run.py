@@ -275,10 +275,12 @@ def generate(
                          output_csv, output_npy)
     
     # Test performance
+    manifold.Controller().barrier()
     torch.cuda.synchronize()
     start_time = time.perf_counter_ns()
     decoder.decode(input_ids, input_lengths, sampling_config, streaming=streaming)
     torch.cuda.synchronize()
+    manifold.Controller().barrier()
     end_time = time.perf_counter_ns();
     print("Time: {} ms".format((end_time - start_time)/1000000.0))
 
