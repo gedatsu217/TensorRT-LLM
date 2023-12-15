@@ -1,0 +1,278 @@
+Inside docker
+/TensorRT-LLM/examples/llama /home/gedatsu/TensorRT-LLM/examples/llama
+Runing python3 run.py --input_tokens ./inputs/input_64.csv --max_output_len 128 --tokenizer_dir meta-llama/Llama-2-13b-hf --engine_dir=./tmp/llama/7B/trt_engines/fp16/4-gpu/
+/home/gedatsu/TensorRT-LLM/tensorrt_llm/runtime/generation.py:660: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at /opt/pytorch/pytorch/aten/src/ATen/NestedTensorImpl.cpp:178.)
+  torch.nested.nested_tensor(split_ids_list,
+[Manifold] Controller instance created for 4 GPUs
+[Manifold] Adding a worker with tid:  0
+[Manifold] Adding a worker with tid:  1
+[Manifold] Adding a worker with tid:  2
+[Manifold] Adding a worker with tid:  3
+tid:  2 gpu_id:  2
+tid:  3 gpu_id:  3
+tid:  1 gpu_id:  1
+tid:  0 gpu_id:  0
+Running the float16 engine ...
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Input: "<s>The capital of China is"
+Output: "a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new, of the traditional and the modern. It is a city of extremes.
+Beijing is a city of extremes. It is a city of contrasts. It is a city of the past and the future, of the old and the new,"
+Time: 3958.708936 ms
+Time: 4259.658874 ms
+Time: 4562.456941 ms
+Time: 4852.304713 ms
+[Manifold] All workers joined
+/home/gedatsu/TensorRT-LLM/examples/llama
+Done 64 128
