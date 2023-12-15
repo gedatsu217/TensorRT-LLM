@@ -286,7 +286,7 @@ def generate(
     print("Time: {} ms".format((end_time - start_time)/1000000.0))
 
 def execute():
-    pp_num = 2; #Todo: hardcoded
+    pp_num = torch.cuda.device_count()
     #controller = manifold.Controller();
     controller = tensorrt_llm.Controller();
 

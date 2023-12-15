@@ -11,7 +11,7 @@ batch_size=${1-"1"}
 output_len=${2-"64"}
 pipeline_num=${3:-1}
 
-command="python3 run.py --input_tokens ./inputs/input_${batch_size}.csv --max_output_len ${output_len} --tokenizer_dir meta-llama/Llama-2-7b-hf --engine_dir=./tmp/llama/7B/trt_engines/fp16/${pipeline_num}-gpu/"
+command="python3 run.py --input_tokens ./inputs/input_${batch_size}.csv --max_output_len ${output_len} --tokenizer_dir meta-llama/Llama-2-13b-hf --engine_dir=./tmp/llama/7B/trt_engines/fp16/${pipeline_num}-gpu/"
 
 if [ -f /.dockerenv ];
 then
