@@ -17,7 +17,7 @@ start_docker() {
             -v ${HOME}/.cache/huggingface:/root/.cache/huggingface \
             -v ${ROOT_DIR}/../Manifold:/Manifold \
             -v ${ROOT_DIR}/../FasterTransformer:/FasterTransformer \
-	    -v ${ROOT_DIR}:/TensorRT-LLM \
+            -v ${ROOT_DIR}:/TensorRT-LLM \
             -v ${ROOT_DIR}:${ROOT_DIR} \
             -v ${MODELS_DIR}:/FasterTransformer/models \
             -v ${MODELS_DIR}:${ROOT_DIR}/models \
