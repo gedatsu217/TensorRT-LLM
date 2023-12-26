@@ -13,6 +13,7 @@ start_docker() {
     if [[ ! $docker_running ]]
     then
         docker run --rm --runtime=nvidia --gpus all \
+            --ipc=host --ulimit memlock=-1 --shm-size=20g \
             -d -it --name ${CONTAINER_NAME} \
             -v ${HOME}/.cache/huggingface:/root/.cache/huggingface \
             -v ${ROOT_DIR}/../Manifold:/Manifold \
